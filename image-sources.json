@@ -1,19 +1,22 @@
-[
-  {
+{
+  "0": {
     "id": 0,
     "name": "Victory Nickel",
     "year": 1943,
     "variant": "Standard / non-colour",
     "catalog": "5 cents - George VI - Torch - #CDM-2292",
-    "sourcePage": "https://cnumis.com/en/catalog/canada/type/5-cents-george-vi-torch-2292",
-    "imageUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:1943_Canada_Tombac_5c_Rev.jpeg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/1943_Canada_Tombac_5c_Rev.jpeg",
     "vintage": null,
-    "credit": "CNumis",
-    "status": "source-link",
-    "image": null,
-    "note": "Available catalog photos do not reliably match this year; open the source to identify the exact issue."
+    "credit": "Editosaurus",
+    "status": "photo",
+    "image": "images/000.jpg",
+    "note": "",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sha256": "5acedb27195d586ba0d9de49a0062aa17f6714994e7d4d7d2d62e339d5193e19"
   },
-  {
+  "1": {
     "id": 1,
     "name": "Victory Nickel",
     "year": 1944,
@@ -28,21 +31,24 @@
     "note": "",
     "sha256": "eac7bff3cd544f20f06da722b26a41a72e81d49bf68d73ed6fb79ba01b5c13ba"
   },
-  {
+  "2": {
     "id": 2,
     "name": "Victory Nickel",
     "year": 1945,
     "variant": "Standard / non-colour",
     "catalog": "5 cents - George VI - Torch - #CDM-2292",
-    "sourcePage": "https://cnumis.com/en/catalog/canada/type/5-cents-george-vi-torch-2292",
-    "imageUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:CANADA,_FIVE_CENTS_1945_-WHITE_METAL_a_-_Flickr_-_woody1778a.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/CANADA%2C_FIVE_CENTS_1945_-WHITE_METAL_a_-_Flickr_-_woody1778a.jpg",
     "vintage": null,
-    "credit": "CNumis",
-    "status": "source-link",
-    "image": null,
-    "note": "Available catalog photos do not reliably match this year; open the source to identify the exact issue."
+    "credit": "Jerry “Woody”",
+    "status": "photo",
+    "image": "images/002.jpg",
+    "note": "",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sha256": "32c1c838ea6ff958fdb5ae651d8f9008bb27abb18505a9073212a4657b15b072"
   },
-  {
+  "3": {
     "id": 3,
     "name": "Identification of Nickel",
     "year": 1951,
@@ -57,7 +63,7 @@
     "note": "",
     "sha256": "c9bd0aedacdb64557d30909e9e60819e442a60453fff06c61a4554923e90ee6c"
   },
-  {
+  "4": {
     "id": 4,
     "name": "Centennial – Hare",
     "year": 1967,
@@ -72,7 +78,7 @@
     "note": "",
     "sha256": "0cae40cb773a8b4891f79a39589138feee805cb5317d69cb8a1173918d77550e"
   },
-  {
+  "5": {
     "id": 5,
     "name": "60th Anniversary Victory Nickel",
     "year": 2005,
@@ -87,7 +93,7 @@
     "note": "",
     "sha256": "bfe4d063a732625fa6aca98cfcb1151ac65bc47f5532dc3aa82d4c4381ed7f5d"
   },
-  {
+  "6": {
     "id": 6,
     "name": "Canada 150 – Living Traditions",
     "year": 2017,
@@ -102,7 +108,7 @@
     "note": "",
     "sha256": "ea04b0b486dae8a8bdb57433dbfda3b5212e122df05fe8fe7a7484f491499ea0"
   },
-  {
+  "7": {
     "id": 7,
     "name": "Centennial – Mackerel",
     "year": 1967,
@@ -117,7 +123,7 @@
     "note": "",
     "sha256": "725758a0e72e9459652705f5010a5bc176c5d41f73a5798e81c6cd4a77ec1fd5"
   },
-  {
+  "8": {
     "id": 8,
     "name": "International Year of the Volunteer",
     "year": 2001,
@@ -132,7 +138,7 @@
     "note": "",
     "sha256": "a711d30ae23d93c6e2522a9ea4b35a750505670d4498ddfae7be37a4a20de1d0"
   },
-  {
+  "9": {
     "id": 9,
     "name": "Canada 150 – Wings of Peace",
     "year": 2017,
@@ -147,7 +153,7 @@
     "note": "",
     "sha256": "21429b2983581a3b82d1c5094e6693ab5db98ce19aef5494ee5fba986ba689d2"
   },
-  {
+  "10": {
     "id": 10,
     "name": "Bluenose 100th – classic double-dated design",
     "year": 2021,
@@ -162,7 +168,7 @@
     "note": "",
     "sha256": "548390436996cc99b657fa4d8246b39128e09c5bad2ffa3e9df34d435ba4ebbf"
   },
-  {
+  "11": {
     "id": 11,
     "name": "Bluenose 100th – modern design",
     "year": 2021,
@@ -177,7 +183,7 @@
     "note": "",
     "sha256": "4de4a9eca30f360ee9a0a062fba4f0b6f39d04293938fab981b04181d7118012"
   },
-  {
+  "12": {
     "id": 12,
     "name": "Bluenose 100th – modern design",
     "year": 2021,
@@ -192,7 +198,7 @@
     "note": "",
     "sha256": "69b51ed8c0fd29a287860a7a3a7cfd2f45d6f6922efbf3e2356580dd7009f558"
   },
-  {
+  "13": {
     "id": 13,
     "name": "Centennial – Bobcat",
     "year": 1967,
@@ -207,7 +213,7 @@
     "note": "",
     "sha256": "9aa91fa8d091791f0500c3ca04b329b590015f8f6a6281b2fc848cceeab4aee2"
   },
-  {
+  "14": {
     "id": 14,
     "name": "RCMP Centennial",
     "year": 1973,
@@ -222,7 +228,7 @@
     "note": "",
     "sha256": "00c1e68218caffb0cf91ffbe9309d5ebcda4de14fa663d61ad1229872c754a7c"
   },
-  {
+  "15": {
     "id": 15,
     "name": "Canada 125 – Alberta",
     "year": 1992,
@@ -237,7 +243,7 @@
     "note": "",
     "sha256": "69f41487494d38739aa5202cf3c0b47f819504305ca5773a95639bce8af473af"
   },
-  {
+  "16": {
     "id": 16,
     "name": "Canada 125 – British Columbia",
     "year": 1992,
@@ -252,7 +258,7 @@
     "note": "",
     "sha256": "1e3db7081e217b3ca3a26cd0d9396aac6cf5e7ac6b8d0db21ad7b8d747ea0ed0"
   },
-  {
+  "17": {
     "id": 17,
     "name": "Canada 125 – Manitoba",
     "year": 1992,
@@ -267,7 +273,7 @@
     "note": "",
     "sha256": "bf6d3894d6482617ad4fab2688dfbba44fb56134e08643c8688b283b54f81e86"
   },
-  {
+  "18": {
     "id": 18,
     "name": "Canada 125 – New Brunswick",
     "year": 1992,
@@ -282,7 +288,7 @@
     "note": "",
     "sha256": "bf0f987c1801768a0bc00d66a8c044917170d0eb334fdc9d5cc525b8105bae32"
   },
-  {
+  "19": {
     "id": 19,
     "name": "Canada 125 – Newfoundland",
     "year": 1992,
@@ -297,7 +303,7 @@
     "note": "",
     "sha256": "05264c06da0c79cbaa256fe9f8ab48c0628ae1e4c125c4402b3032648ed4244a"
   },
-  {
+  "20": {
     "id": 20,
     "name": "Canada 125 – Northwest Territories",
     "year": 1992,
@@ -312,7 +318,7 @@
     "note": "",
     "sha256": "d511aaedcc5592e881a597fb9b847b38f0e1f80f2a267746ccaa33f62f8f2f84"
   },
-  {
+  "21": {
     "id": 21,
     "name": "Canada 125 – Nova Scotia",
     "year": 1992,
@@ -327,7 +333,7 @@
     "note": "",
     "sha256": "dc0fabbabaabef9724d2affad05e6bb3c69dcb0881735317d43d9d804ae483d5"
   },
-  {
+  "22": {
     "id": 22,
     "name": "Canada 125 – Ontario",
     "year": 1992,
@@ -342,7 +348,7 @@
     "note": "",
     "sha256": "7c95d4770ea196c203cc2da4282983b06586e19fcfc221de60ff6d22d2bec3e1"
   },
-  {
+  "23": {
     "id": 23,
     "name": "Canada 125 – Prince Edward Island",
     "year": 1992,
@@ -357,7 +363,7 @@
     "note": "",
     "sha256": "ab3a1c619aa0327f326d37d7493cef65a68f9093b964e69fc53df4f86e2aeee7"
   },
-  {
+  "24": {
     "id": 24,
     "name": "Canada 125 – Quebec",
     "year": 1992,
@@ -372,7 +378,7 @@
     "note": "",
     "sha256": "8ea3da93f708847dc4327faf1cd7f1111fc5ab44a0562ca45327c654e27d01cd"
   },
-  {
+  "25": {
     "id": 25,
     "name": "Canada 125 – Saskatchewan",
     "year": 1992,
@@ -387,7 +393,7 @@
     "note": "",
     "sha256": "e3fe67c9c243cee5c6a177e940f053454e57bdd163e44452c4bd12a513699ed5"
   },
-  {
+  "26": {
     "id": 26,
     "name": "Canada 125 – Yukon",
     "year": 1992,
@@ -402,7 +408,7 @@
     "note": "",
     "sha256": "02068f9b8e758f1bcec2e699346fc573534661ee17ea629946f11f5125d88138"
   },
-  {
+  "27": {
     "id": 27,
     "name": "Millennium – April: Our Northern Heritage",
     "year": 1999,
@@ -417,7 +423,7 @@
     "note": "",
     "sha256": "ffc8ce12b941f375d090d02c941d59e5078bdcdff55493d028dae9f0add770a9"
   },
-  {
+  "28": {
     "id": 28,
     "name": "Millennium – August: The Pioneer Spirit",
     "year": 1999,
@@ -432,7 +438,7 @@
     "note": "",
     "sha256": "62eb34b1d1e4d3d49c9acbbb420800f37dce8129495e216736e596d88a40114f"
   },
-  {
+  "29": {
     "id": 29,
     "name": "Millennium – December: This Is Canada",
     "year": 1999,
@@ -447,7 +453,7 @@
     "note": "",
     "sha256": "def88a6d17f5d7547e69b599fa8f3e4ac25543d788780b712a3658968f0341c4"
   },
-  {
+  "30": {
     "id": 30,
     "name": "Millennium – February: Etched in Stone",
     "year": 1999,
@@ -462,7 +468,7 @@
     "note": "",
     "sha256": "65d4de48e5986f238118d158486588a951c32692f57226e9d512eb15134220df"
   },
-  {
+  "31": {
     "id": 31,
     "name": "Millennium – January: A Country Unfolds",
     "year": 1999,
@@ -477,7 +483,7 @@
     "note": "",
     "sha256": "21dde6d55b9b3ba9e1c597e1be11679a7aedba3ab57c236d0af54535ce015224"
   },
-  {
+  "32": {
     "id": 32,
     "name": "Millennium – July: A Nation of People",
     "year": 1999,
@@ -492,7 +498,7 @@
     "note": "",
     "sha256": "52f37ea3c669f0722f68599eff079642465427280e17f216f5c9b5562d60ded4"
   },
-  {
+  "33": {
     "id": 33,
     "name": "Millennium – June: From Coast to Coast",
     "year": 1999,
@@ -507,7 +513,7 @@
     "note": "",
     "sha256": "b52fd5040d21e63f09dff59c97375f0db219dbe31bb5029269f21c4a25185d40"
   },
-  {
+  "34": {
     "id": 34,
     "name": "Millennium – March: The Log Drive",
     "year": 1999,
@@ -522,7 +528,7 @@
     "note": "",
     "sha256": "1325c06e1a7582ccfae522367ce30cf4843546e1ac0d8d4afa7f804c9a09cec5"
   },
-  {
+  "35": {
     "id": 35,
     "name": "Millennium – May: The Voyageurs",
     "year": 1999,
@@ -537,7 +543,7 @@
     "note": "",
     "sha256": "6e07ce6a88b7f464a3aef72410589c4981b768ddd5d6c1f219481db2e36e3051"
   },
-  {
+  "36": {
     "id": 36,
     "name": "Millennium – November: The Airplane Opens the North",
     "year": 1999,
@@ -552,7 +558,7 @@
     "note": "",
     "sha256": "5327eebe963d0d54eb421cffd369a46253c5acc34b132311aba1a4d62688670d"
   },
-  {
+  "37": {
     "id": 37,
     "name": "Millennium – October: A Tribute to First Nations",
     "year": 1999,
@@ -567,7 +573,7 @@
     "note": "",
     "sha256": "33039c33cb3a62bf4ab642a058535d8d8bb23e8f6cb0aa0fcb2f33435ac42108"
   },
-  {
+  "38": {
     "id": 38,
     "name": "Millennium – September: Canada Through a Child's Eye",
     "year": 1999,
@@ -582,7 +588,7 @@
     "note": "",
     "sha256": "3d6345914f4d8b0cb79d12af17af988527bfad03ab2bdd808e450f6d81c21c46"
   },
-  {
+  "39": {
     "id": 39,
     "name": "Millennium – Achievement",
     "year": 2000,
@@ -597,7 +603,7 @@
     "note": "",
     "sha256": "c9091139f1c71c97aa24d1f93f3218e9aeba32ba9ee997883f4d0763e999c0f1"
   },
-  {
+  "40": {
     "id": 40,
     "name": "Millennium – Celebration",
     "year": 2000,
@@ -612,7 +618,7 @@
     "note": "",
     "sha256": "f7ceb565b5ab8b46f4ec7fe73edc1403f647d8f6755bc197847388471acafa6c"
   },
-  {
+  "41": {
     "id": 41,
     "name": "Millennium – Community",
     "year": 2000,
@@ -627,7 +633,7 @@
     "note": "",
     "sha256": "15f7743f34c5d562dbb941d0d28a0ff4bc7343a41fe81a0b3b8d2b6898a9c923"
   },
-  {
+  "42": {
     "id": 42,
     "name": "Millennium – Creativity",
     "year": 2000,
@@ -642,7 +648,7 @@
     "note": "",
     "sha256": "885eb21a8755970a6a4127ca0912b37ab44f5df42c88a9dbcd31aeb009c5d719"
   },
-  {
+  "43": {
     "id": 43,
     "name": "Millennium – Family",
     "year": 2000,
@@ -657,7 +663,7 @@
     "note": "",
     "sha256": "01afd565b788ce43e951f003035d7830eb7a395895a4ac9628b2cf9be55ff1ec"
   },
-  {
+  "44": {
     "id": 44,
     "name": "Millennium – Freedom",
     "year": 2000,
@@ -672,7 +678,7 @@
     "note": "",
     "sha256": "7595e77d5adad92f24e82c960765898ee8c464c82455e48669e96c0c5e91afde"
   },
-  {
+  "45": {
     "id": 45,
     "name": "Millennium – Harmony",
     "year": 2000,
@@ -687,7 +693,7 @@
     "note": "",
     "sha256": "5e96089446fe4822bd439fa06127910e897cb705bb2407fdd94db68ac9132be6"
   },
-  {
+  "46": {
     "id": 46,
     "name": "Millennium – Health",
     "year": 2000,
@@ -702,7 +708,7 @@
     "note": "",
     "sha256": "9fdbb06829b0a4d86ffa3aadc2fb85a29acc3947f4a5b7bfc0c7dea1884430a3"
   },
-  {
+  "47": {
     "id": 47,
     "name": "Millennium – Ingenuity",
     "year": 2000,
@@ -717,7 +723,7 @@
     "note": "",
     "sha256": "c285bff079a5a2163dff65b83c36bb985a6d9268aed4e52fa1de3efc283168f2"
   },
-  {
+  "48": {
     "id": 48,
     "name": "Millennium – Natural Legacy",
     "year": 2000,
@@ -732,7 +738,7 @@
     "note": "",
     "sha256": "e440d0a20a2df1ea803d5619f818d86f3c8260ef8e599c06e366c263e534d189"
   },
-  {
+  "49": {
     "id": 49,
     "name": "Millennium – Pride",
     "year": 2000,
@@ -747,7 +753,7 @@
     "note": "",
     "sha256": "504cb82b5b44e1079d375f84f233840f603ff3f19ea80a3cec89392ca834ad8b"
   },
-  {
+  "50": {
     "id": 50,
     "name": "Millennium – Wisdom",
     "year": 2000,
@@ -762,7 +768,7 @@
     "note": "",
     "sha256": "08974b1c2afd1713cff78259953772dcb07950cf6c9ffd1b642ed2ae0c88bebb"
   },
-  {
+  "51": {
     "id": 51,
     "name": "Canada Day",
     "year": 2002,
@@ -777,7 +783,7 @@
     "note": "",
     "sha256": "da325eb3b4e34eafc4601e6f46a250eddd43ea7a18d19cc0b39bee5ca3de335a"
   },
-  {
+  "52": {
     "id": 52,
     "name": "L'Acadie",
     "year": 2004,
@@ -792,7 +798,7 @@
     "note": "",
     "sha256": "fb9cf97030995614c793c683060da2075b6c5c093389870c7ce56592762eb926"
   },
-  {
+  "53": {
     "id": 53,
     "name": "Poppy",
     "year": 2004,
@@ -807,7 +813,7 @@
     "note": "",
     "sha256": "e18600330af254fe9d733d6bfc423015644da3446fc85e689cfcdb3a5f61f60d"
   },
-  {
+  "54": {
     "id": 54,
     "name": "Alberta Centennial",
     "year": 2005,
@@ -822,7 +828,7 @@
     "note": "",
     "sha256": "0863dc1075254c54264fb544f9afe3a246d001eb1ca96a5c1f6660d84e8833db"
   },
-  {
+  "55": {
     "id": 55,
     "name": "Saskatchewan Centennial",
     "year": 2005,
@@ -837,7 +843,7 @@
     "note": "",
     "sha256": "9cfd530014d778542418f711058b66a9e4c2862273b2932d38832b3adc781a5c"
   },
-  {
+  "56": {
     "id": 56,
     "name": "Year of the Veteran",
     "year": 2005,
@@ -852,7 +858,7 @@
     "note": "",
     "sha256": "cbcbeda3f9ce1cc1615451868667a110b812f6133005813634121aa3c49e9fcf"
   },
-  {
+  "57": {
     "id": 57,
     "name": "Breast Cancer",
     "year": 2006,
@@ -867,7 +873,7 @@
     "note": "",
     "sha256": "2fb0036d4dc881d6b8afde90d3dd54525dee1b8d351eb4bb4dad7bf605632423"
   },
-  {
+  "58": {
     "id": 58,
     "name": "Medal of Bravery",
     "year": 2006,
@@ -882,7 +888,7 @@
     "note": "",
     "sha256": "3525814b5ead85b5ff39c2d0f88026189874436a87e5a3667c915e7e6620a912"
   },
-  {
+  "59": {
     "id": 59,
     "name": "Vancouver 2010 – Alpine Skiing",
     "year": 2007,
@@ -897,7 +903,7 @@
     "note": "",
     "sha256": "ac61642a367b655769ba86588393149fe00e5133397580c71df615318035784f"
   },
-  {
+  "60": {
     "id": 60,
     "name": "Vancouver 2010 – Biathlon",
     "year": 2007,
@@ -912,7 +918,7 @@
     "note": "",
     "sha256": "2f17a151444a894e6aecbc1c0fcfd1d269490208dac729a4e5e5bed0605d6ab3"
   },
-  {
+  "61": {
     "id": 61,
     "name": "Vancouver 2010 – Curling",
     "year": 2007,
@@ -927,7 +933,7 @@
     "note": "",
     "sha256": "5ec1a7dfea735028283b86a1ff2ebfd277a833c8e13f2240d2eb92e348c8203c"
   },
-  {
+  "62": {
     "id": 62,
     "name": "Vancouver 2010 – Ice Hockey",
     "year": 2007,
@@ -942,7 +948,7 @@
     "note": "",
     "sha256": "81a4b3e459bbb08bb7be3a03caad72d0f5a18acd3621c804e90f08f9dec63aba"
   },
-  {
+  "63": {
     "id": 63,
     "name": "Vancouver 2010 – Wheelchair Curling",
     "year": 2007,
@@ -957,7 +963,7 @@
     "note": "",
     "sha256": "808f991472e34c9b1931f5a622fd9f9ac2bdc8aee0338ed5e25427567da425cc"
   },
-  {
+  "64": {
     "id": 64,
     "name": "Remembrance Day Poppy",
     "year": 2008,
@@ -972,7 +978,7 @@
     "note": "",
     "sha256": "4a82a7c1f9bb3e067a3cc2d06c0d851cc9b67b17cfff27ab38ba9ddb1c7583d6"
   },
-  {
+  "65": {
     "id": 65,
     "name": "Vancouver 2010 – Cross-Country Skiing",
     "year": 2008,
@@ -987,7 +993,7 @@
     "note": "",
     "sha256": "c3ce062d64a1d18fc51f1ab7819928fa0103328aa25ddf2bdf8a502c90a8b6c5"
   },
-  {
+  "66": {
     "id": 66,
     "name": "Vancouver 2010 – Figure Skating",
     "year": 2008,
@@ -1002,7 +1008,7 @@
     "note": "",
     "sha256": "e7a683c18556cad1da90d742e56d45b44cde57996adfbe4678fdf48d2f05097e"
   },
-  {
+  "67": {
     "id": 67,
     "name": "Vancouver 2010 – Freestyle Skiing",
     "year": 2008,
@@ -1017,7 +1023,7 @@
     "note": "",
     "sha256": "78565c4dc791a9dcec76413cb6b161fb3a3be86de36fa1ae938ffd2fd86d4e24"
   },
-  {
+  "68": {
     "id": 68,
     "name": "Vancouver 2010 – Snowboarding",
     "year": 2008,
@@ -1032,7 +1038,7 @@
     "note": "",
     "sha256": "20635b963e670eb7b3d222344a299f39b09f03abaa257f6c40c749dac2984d23"
   },
-  {
+  "69": {
     "id": 69,
     "name": "Vancouver 2010 – Bobsleigh",
     "year": 2009,
@@ -1047,7 +1053,7 @@
     "note": "",
     "sha256": "38cc562e9b8340be1e5de9b302fc4a31c9834eae525d62cb4d2fe07a59db21e1"
   },
-  {
+  "70": {
     "id": 70,
     "name": "Vancouver 2010 – Cindy Klassen",
     "year": 2009,
@@ -1061,7 +1067,7 @@
     "image": null,
     "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
   },
-  {
+  "71": {
     "id": 71,
     "name": "Vancouver 2010 – Men's Hockey",
     "year": 2009,
@@ -1075,7 +1081,7 @@
     "image": null,
     "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
   },
-  {
+  "72": {
     "id": 72,
     "name": "Vancouver 2010 – Speed Skating",
     "year": 2009,
@@ -1090,7 +1096,7 @@
     "note": "",
     "sha256": "cb3c02227269c16741ba88f206c537f5410b8f04547ad246ec8dc594d73bde9d"
   },
-  {
+  "73": {
     "id": 73,
     "name": "Vancouver 2010 – Women's Hockey",
     "year": 2009,
@@ -1104,7 +1110,7 @@
     "image": null,
     "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
   },
-  {
+  "74": {
     "id": 74,
     "name": "Remembrance Day Poppy",
     "year": 2010,
@@ -1119,7 +1125,7 @@
     "note": "",
     "sha256": "0ee8afee9a07c9dd6f912002e50523830504ff4b95e2e090b6bb43f01f797d10"
   },
-  {
+  "75": {
     "id": 75,
     "name": "Vancouver 2010 – Sledge Hockey",
     "year": 2010,
@@ -1134,7 +1140,7 @@
     "note": "",
     "sha256": "cf0f3f2fe11a999232a7db3aa9d05626abbc28830a506cdbcda21df89f15ad6a"
   },
-  {
+  "76": {
     "id": 76,
     "name": "Legendary Nature – Peregrine Falcon",
     "year": 2011,
@@ -1149,7 +1155,7 @@
     "note": "",
     "sha256": "32cdad887e0d02acb980867612afca5f1b0dfefbb74b5141e7bf2ba9831e6100"
   },
-  {
+  "77": {
     "id": 77,
     "name": "Legendary Nature – Wood Bison",
     "year": 2011,
@@ -1164,7 +1170,7 @@
     "note": "",
     "sha256": "d1dcdefce7ec1649094d872b56fbe369ec0d91e241fc8e4a5503cb5848888d6d"
   },
-  {
+  "78": {
     "id": 78,
     "name": "Legendary Nature – Orca",
     "year": 2012,
@@ -1179,7 +1185,7 @@
     "note": "",
     "sha256": "e3d9f120a8b5866f0c6345f42652390f9ef1b4defc2ba59f71891a9466ed1a94"
   },
-  {
+  "79": {
     "id": 79,
     "name": "War of 1812 – Sir Isaac Brock",
     "year": 2012,
@@ -1194,7 +1200,7 @@
     "note": "",
     "sha256": "e167efdce6501837cc30f2c61d1581c3edf0d4040d5bba40ea7bfbd8398914fe"
   },
-  {
+  "80": {
     "id": 80,
     "name": "War of 1812 – Sir Isaac Brock",
     "year": 2012,
@@ -1208,7 +1214,7 @@
     "image": null,
     "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
   },
-  {
+  "81": {
     "id": 81,
     "name": "War of 1812 – Tecumseh",
     "year": 2012,
@@ -1223,7 +1229,7 @@
     "note": "",
     "sha256": "9d655dd09117e0a4f3c8d318d40e7ba32b04c3a1904d23605fbcadf6864e84a2"
   },
-  {
+  "82": {
     "id": 82,
     "name": "War of 1812 – Tecumseh",
     "year": 2012,
@@ -1237,7 +1243,7 @@
     "image": null,
     "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
   },
-  {
+  "83": {
     "id": 83,
     "name": "Arctic Expedition",
     "year": 2013,
@@ -1252,7 +1258,7 @@
     "note": "",
     "sha256": "da164099fb97badee11e63398c0337a94d5ac41984eb78deead3539ea7d4ae4c"
   },
-  {
+  "84": {
     "id": 84,
     "name": "Life in the North",
     "year": 2013,
@@ -1267,7 +1273,7 @@
     "note": "",
     "sha256": "bf3e7823224d50d30c488bd7e1cf894d177168125be2e554a7436d67817d6019"
   },
-  {
+  "85": {
     "id": 85,
     "name": "War of 1812 – Charles-Michel de Salaberry",
     "year": 2013,
@@ -1282,7 +1288,7 @@
     "note": "",
     "sha256": "22667f4d49ad66a1012acb4cae1b30bd907857c39d298c5729e21afd1dd8c0ba"
   },
-  {
+  "86": {
     "id": 86,
     "name": "War of 1812 – Charles-Michel de Salaberry",
     "year": 2013,
@@ -1297,7 +1303,7 @@
     "note": "",
     "sha256": "4c3ab8c30d87ecbb20214aab9ca67b329c3707fcf2c4d3066dd21fe852dc5050"
   },
-  {
+  "87": {
     "id": 87,
     "name": "War of 1812 – Laura Secord",
     "year": 2013,
@@ -1312,7 +1318,7 @@
     "note": "",
     "sha256": "fbc59dbbd6cd1a530a69c3e1f0eb7f3ac82d07ced3adde609d354f3014475234"
   },
-  {
+  "88": {
     "id": 88,
     "name": "War of 1812 – Laura Secord",
     "year": 2013,
@@ -1326,7 +1332,7 @@
     "image": null,
     "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
   },
-  {
+  "89": {
     "id": 89,
     "name": "50th Anniversary of the Canadian Flag",
     "year": 2015,
@@ -1341,7 +1347,7 @@
     "note": "",
     "sha256": "f16a0c12e170e1d0b7e4280e8f383c0498febadcce7243216bf38d67900807bd"
   },
-  {
+  "90": {
     "id": 90,
     "name": "50th Anniversary of the Canadian Flag",
     "year": 2015,
@@ -1356,7 +1362,7 @@
     "note": "",
     "sha256": "452602dd6b80ede7fce023d811bcc70337b1abc3d70638e722938d03bbaac466"
   },
-  {
+  "91": {
     "id": 91,
     "name": "In Flanders Fields",
     "year": 2015,
@@ -1371,7 +1377,7 @@
     "note": "",
     "sha256": "c99bf6a7fb7972968f2b1f537fea61bce066a956788148d98c9bf2855e0b4382"
   },
-  {
+  "92": {
     "id": 92,
     "name": "In Flanders Fields",
     "year": 2015,
@@ -1386,7 +1392,7 @@
     "note": "",
     "sha256": "7c6eec3e3894d82e60c192ccc2424cef8c5dc60f85cb85594a94ac47937a686f"
   },
-  {
+  "93": {
     "id": 93,
     "name": "Canada 150 – Hope for a Green Future",
     "year": 2017,
@@ -1401,7 +1407,7 @@
     "note": "",
     "sha256": "5baa2c45009fa2f018fe6984ac9a43456a2ba8aedd0c89644cabc97fc84dac84"
   },
-  {
+  "94": {
     "id": 94,
     "name": "Stanley Cup 125th Anniversary",
     "year": 2017,
@@ -1416,7 +1422,7 @@
     "note": "",
     "sha256": "5c9dc0e1acad9026e9cad7617eee480aea7a087fade9ddac8649048d22801e3a"
   },
-  {
+  "95": {
     "id": 95,
     "name": "Royal Visit",
     "year": 1939,
@@ -1431,7 +1437,7 @@
     "note": "",
     "sha256": "d271c64aa808da912c276955f52fec5d936121f8e70c141edcd744723438e81e"
   },
-  {
+  "96": {
     "id": 96,
     "name": "Newfoundland Joins Confederation",
     "year": 1949,
@@ -1446,7 +1452,7 @@
     "note": "",
     "sha256": "6dca7c7f283569d8b8f6c0f262ed45b6bb2eccd899f3fd3a547fab7a763d2ad8"
   },
-  {
+  "97": {
     "id": 97,
     "name": "Founding of British Columbia",
     "year": 1958,
@@ -1461,7 +1467,7 @@
     "note": "",
     "sha256": "714e7c8e41200f281a811a0f54443a0a2660ad94c8ae075c4a3381d3b3e9d961"
   },
-  {
+  "98": {
     "id": 98,
     "name": "Confederation Meetings",
     "year": 1964,
@@ -1476,7 +1482,7 @@
     "note": "",
     "sha256": "f8e8024d93682efc90028aa5e7c75b6a597c6064465e1f89d38ab29c3451a750"
   },
-  {
+  "99": {
     "id": 99,
     "name": "Centennial – Canada Goose",
     "year": 1967,
@@ -1491,7 +1497,7 @@
     "note": "",
     "sha256": "98d5b9b5573d8c6b59baaa80f821e43c7495130f5738c0ae40be21beb9899550"
   },
-  {
+  "100": {
     "id": 100,
     "name": "Manitoba Centennial",
     "year": 1970,
@@ -1506,7 +1512,7 @@
     "note": "",
     "sha256": "22812b33a5b80dae65ad6fb945eb534804d977cca6d3376d74af3a9085450289"
   },
-  {
+  "101": {
     "id": 101,
     "name": "British Columbia Centennial",
     "year": 1971,
@@ -1521,7 +1527,7 @@
     "note": "",
     "sha256": "2aa6783b3db88987cccce2d7f54c23151b3dd4d46895902fd093516e24f854c0"
   },
-  {
+  "102": {
     "id": 102,
     "name": "Prince Edward Island Centennial",
     "year": 1973,
@@ -1536,7 +1542,7 @@
     "note": "",
     "sha256": "3c4c05df3c048171e3c7fdab3c83ce4a16bab41568fa1c62413c8932e8d9f5d4"
   },
-  {
+  "103": {
     "id": 103,
     "name": "Winnipeg Centennial",
     "year": 1974,
@@ -1551,7 +1557,7 @@
     "note": "",
     "sha256": "0d5017842d8ab3358bb451dfc4ff056e3c89a467223191bd54b723e758d526dd"
   },
-  {
+  "104": {
     "id": 104,
     "name": "Constitution Commemorative Dollar",
     "year": 1982,
@@ -1566,7 +1572,7 @@
     "note": "",
     "sha256": "e78f46d6b173b0623a05256330fd050b2580fc3aeecf471026d92b7528bc60f2"
   },
-  {
+  "105": {
     "id": 105,
     "name": "Jacques Cartier on the Gaspé",
     "year": 1984,
@@ -1581,7 +1587,7 @@
     "note": "",
     "sha256": "20768cdcf2c709cff24111413e1c251923c48ad1caa28063734e67f3e6e69a0d"
   },
-  {
+  "106": {
     "id": 106,
     "name": "125th Anniversary of Confederation / Parliament",
     "year": 1992,
@@ -1596,7 +1602,7 @@
     "note": "",
     "sha256": "c9bed6193808756344efc0a6d9c4ce6c768519eef62698cf826efd5151a44819"
   },
-  {
+  "107": {
     "id": 107,
     "name": "National War Memorial",
     "year": 1994,
@@ -1611,7 +1617,7 @@
     "note": "",
     "sha256": "37cb34e8ccad4932d6369b073ec50d230f50062714ef47567c376d730d61ac59"
   },
-  {
+  "108": {
     "id": 108,
     "name": "Peacekeeping Monument",
     "year": 1995,
@@ -1626,7 +1632,7 @@
     "note": "",
     "sha256": "134f70ec3a8283fd8b687a611001a9cd0f752ce4ee90640c2322fac1f2aa9b79"
   },
-  {
+  "109": {
     "id": 109,
     "name": "Lucky Loonie",
     "year": 2004,
@@ -1641,7 +1647,7 @@
     "note": "",
     "sha256": "a2d02d0e860a9ccffbcf8728863c48b4525410d9972c40d87cc39d8324ad17cf"
   },
-  {
+  "110": {
     "id": 110,
     "name": "Lucky Loonie",
     "year": 2005,
@@ -1655,7 +1661,7 @@
     "image": null,
     "note": "The source identifies this design as 2006; the original 2005 checklist entry is preserved pending verification."
   },
-  {
+  "111": {
     "id": 111,
     "name": "Terry Fox",
     "year": 2005,
@@ -1670,7 +1676,7 @@
     "note": "",
     "sha256": "c171d0782e27f60d632ace6bd58aa29a3e555380a8a5974e4b14c53e97bf502b"
   },
-  {
+  "112": {
     "id": 112,
     "name": "Lucky Loonie",
     "year": 2006,
@@ -1685,7 +1691,7 @@
     "note": "",
     "sha256": "814b7ccb38c76eb904c80fa08753169049c09e74730e8012a036810ec87784f6"
   },
-  {
+  "113": {
     "id": 113,
     "name": "Lucky Loonie",
     "year": 2008,
@@ -1700,7 +1706,7 @@
     "note": "",
     "sha256": "d60026ebaf782df11e40fe2204753c128bf7413be5235bf5c110b31d26fc0ff7"
   },
-  {
+  "114": {
     "id": 114,
     "name": "Montreal Canadiens 100th Anniversary",
     "year": 2009,
@@ -1715,7 +1721,7 @@
     "note": "",
     "sha256": "b94b2802eb9264d017662e282cc5c5d424c38549721af5938c5b12426254029b"
   },
-  {
+  "115": {
     "id": 115,
     "name": "Canadian Navy 100th Anniversary",
     "year": 2010,
@@ -1730,7 +1736,7 @@
     "note": "",
     "sha256": "eb7d4e087e932edc5f6deb751cbd52fb37a55ae60f9e37a2ec954d6a258cfde6"
   },
-  {
+  "116": {
     "id": 116,
     "name": "Lucky Loonie",
     "year": 2010,
@@ -1745,7 +1751,7 @@
     "note": "",
     "sha256": "4f3348b598b0e533c7c1edc3261d8a87b81e7e2fc61a248981b2ff9bd194ab64"
   },
-  {
+  "117": {
     "id": 117,
     "name": "Saskatchewan Roughriders 100th Anniversary",
     "year": 2010,
@@ -1760,7 +1766,7 @@
     "note": "",
     "sha256": "4afded876d62e0be321aa0f9e5e5863e34eb71e6cc9059a24c80b0cc3b0d00cc"
   },
-  {
+  "118": {
     "id": 118,
     "name": "Parks Canada Centennial",
     "year": 2011,
@@ -1775,7 +1781,7 @@
     "note": "",
     "sha256": "3f831a2d2bf525ea14df70ba2101e8be088eeda5aa48c969189ccb0e67b46de4"
   },
-  {
+  "119": {
     "id": 119,
     "name": "100th Grey Cup",
     "year": 2012,
@@ -1790,7 +1796,7 @@
     "note": "",
     "sha256": "4610409a11e7fa402ae6d1bc0d3bd266223b2c0865bac25f3da59c3a77b35a1a"
   },
-  {
+  "120": {
     "id": 120,
     "name": "Lucky Loonie",
     "year": 2012,
@@ -1805,7 +1811,7 @@
     "note": "",
     "sha256": "164b4ef043dd6860b0df37c2b2f4c3d4ced462d308db8dd2e775ded98feae800"
   },
-  {
+  "121": {
     "id": 121,
     "name": "Lucky Loonie",
     "year": 2014,
@@ -1820,7 +1826,7 @@
     "note": "",
     "sha256": "a6c9cea1a519093ca835a469949228675a77ea0e5dcc068944fb767ac3aa7e34"
   },
-  {
+  "122": {
     "id": 122,
     "name": "Lucky Loonie",
     "year": 2016,
@@ -1835,7 +1841,7 @@
     "note": "",
     "sha256": "6461ae11c87c6e51e05756e68af632a2b450a878cf1ff4329f4dce54dd5eb52b"
   },
-  {
+  "123": {
     "id": 123,
     "name": "Women's Right to Vote 100th Anniversary",
     "year": 2016,
@@ -1850,7 +1856,7 @@
     "note": "",
     "sha256": "7691c2ddf0e0b1436daeb9f36f8d13855779b98c2fd83612e80faa139b3676df"
   },
-  {
+  "124": {
     "id": 124,
     "name": "Canada 150 – Connecting a Nation",
     "year": 2017,
@@ -1865,7 +1871,7 @@
     "note": "",
     "sha256": "59d579bdf95db027db8e8a84f806ad20f168d40cbebd19e11434ccf9d25aae7a"
   },
-  {
+  "125": {
     "id": 125,
     "name": "Toronto Maple Leafs 100th Anniversary",
     "year": 2017,
@@ -1880,7 +1886,7 @@
     "note": "",
     "sha256": "d20f22035cc599042afbbd84615c8adf8a9f1df83620c3b11afe3876d04401b2"
   },
-  {
+  "126": {
     "id": 126,
     "name": "Equality",
     "year": 2019,
@@ -1895,7 +1901,7 @@
     "note": "",
     "sha256": "bc3ae48e7237e2c058185f98e57fcbda32b5a7d871095f11221946cf971d348d"
   },
-  {
+  "127": {
     "id": 127,
     "name": "75th Anniversary of the UN Charter",
     "year": 2020,
@@ -1910,7 +1916,7 @@
     "note": "",
     "sha256": "3b95c6d50d816c6511e386b8bfd7f346794dda89f7906413fb8479d28434f715"
   },
-  {
+  "128": {
     "id": 128,
     "name": "Klondike Gold Rush 125th Anniversary",
     "year": 2021,
@@ -1925,7 +1931,7 @@
     "note": "",
     "sha256": "8f3733a6ee96355bb54fb6d79c94a5eb1e06fe46bcc1891b4b94948077c940cd"
   },
-  {
+  "129": {
     "id": 129,
     "name": "Klondike Gold Rush 125th Anniversary",
     "year": 2021,
@@ -1940,7 +1946,7 @@
     "note": "",
     "sha256": "e391f37b08990ceba82226087388ecd2f1bebe869d4ef861a28cf1693348a894"
   },
-  {
+  "130": {
     "id": 130,
     "name": "Alexander Graham Bell",
     "year": 2022,
@@ -1954,7 +1960,7 @@
     "image": null,
     "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
   },
-  {
+  "131": {
     "id": 131,
     "name": "Oscar Peterson",
     "year": 2022,
@@ -1969,7 +1975,7 @@
     "note": "",
     "sha256": "adde953b23e3c259bd054f9727875b3aaa7ec5a82217d8c11bf6f710deb0037d"
   },
-  {
+  "132": {
     "id": 132,
     "name": "Oscar Peterson",
     "year": 2022,
@@ -1983,7 +1989,7 @@
     "image": null,
     "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
   },
-  {
+  "133": {
     "id": 133,
     "name": "Elsie MacGill",
     "year": 2023,
@@ -1998,7 +2004,7 @@
     "note": "",
     "sha256": "1f932e58eb3850271189af4fc0edbfd6d58b30ebeae72edf114c015c729da382"
   },
-  {
+  "134": {
     "id": 134,
     "name": "Elsie MacGill",
     "year": 2023,
@@ -2013,7 +2019,7 @@
     "note": "",
     "sha256": "177384d50a1ccf43c5dd560277ddf631e2f8119f33fe192bb21374dfef061b91"
   },
-  {
+  "135": {
     "id": 135,
     "name": "L. M. Montgomery",
     "year": 2024,
@@ -2028,7 +2034,7 @@
     "note": "",
     "sha256": "1992e05dfe8de320d8457ac9d1040a4f1525b32e0dee7536a952154a123f1b1e"
   },
-  {
+  "136": {
     "id": 136,
     "name": "L. M. Montgomery",
     "year": 2024,
@@ -2043,7 +2049,7 @@
     "note": "",
     "sha256": "28190a3d7c3fe44e81b6707f538620232daad2f067d9176390122ba51e8357b8"
   },
-  {
+  "137": {
     "id": 137,
     "name": "Supreme Court of Canada 150th Anniversary",
     "year": 2025,
@@ -2058,7 +2064,7 @@
     "note": "",
     "sha256": "04d4c4fde5fe4e57db0e5396b371beae1d15eadd1b26fbcb4ed82693d2c16b83"
   },
-  {
+  "138": {
     "id": 138,
     "name": "FIFA World Cup 2026",
     "year": 2026,
@@ -2073,7 +2079,7 @@
     "note": "",
     "sha256": "bd2ac798a12be450f99232edbb5d9039f8ece20296f523cca5956902bf6e4aee"
   },
-  {
+  "139": {
     "id": 139,
     "name": "FIFA World Cup 2026",
     "year": 2026,
@@ -2088,7 +2094,7 @@
     "note": "",
     "sha256": "f2d7ead429da4ba0b32bd9f88fdfb6053a361953e551683619dbec0fbe684652"
   },
-  {
+  "140": {
     "id": 140,
     "name": "Founding of Nunavut",
     "year": 1999,
@@ -2103,7 +2109,7 @@
     "note": "",
     "sha256": "7b99ab438749fa4d5f1270b992029408a06551495eb2afabd72504a395af94be"
   },
-  {
+  "141": {
     "id": 141,
     "name": "Path of Knowledge",
     "year": 2000,
@@ -2118,7 +2124,7 @@
     "note": "",
     "sha256": "54be5713c057ca61282c1765ac705e8d9dfb6f2e229c79c2abfe6f2d2207ae3c"
   },
-  {
+  "142": {
     "id": 142,
     "name": "10th Anniversary – Traditional Polar Bear",
     "year": 2006,
@@ -2133,7 +2139,7 @@
     "note": "",
     "sha256": "96af6528d021db57be0722b05c36fb36f411e3898b0c5017d11a771b3dfc158d"
   },
-  {
+  "143": {
     "id": 143,
     "name": "10th Anniversary – Updated Polar Bear / Aurora Borealis",
     "year": 2006,
@@ -2148,7 +2154,7 @@
     "note": "",
     "sha256": "62cf042c73b56752ec7e9330bc5fd8b3263fb99afbeca6318d809ae5d9860285"
   },
-  {
+  "144": {
     "id": 144,
     "name": "Quebec City 400th Anniversary",
     "year": 2008,
@@ -2163,7 +2169,7 @@
     "note": "",
     "sha256": "4a50f567cb84b06ac4a41a4795110cecc51abe4296bd65b98f9f8131a920174e"
   },
-  {
+  "145": {
     "id": 145,
     "name": "Boreal Forest",
     "year": 2011,
@@ -2178,7 +2184,7 @@
     "note": "",
     "sha256": "875f907fcd9fdaa7651be7e5a701182995e046f21e357fd3df764eb85b1c99d1"
   },
-  {
+  "146": {
     "id": 146,
     "name": "War of 1812",
     "year": 2012,
@@ -2193,7 +2199,7 @@
     "note": "",
     "sha256": "e4cefda1924722461e93fdf180a6281a9c439d96bf65747b61f5ca85324330da"
   },
-  {
+  "147": {
     "id": 147,
     "name": "Wait for Me, Daddy",
     "year": 2014,
@@ -2208,7 +2214,7 @@
     "note": "",
     "sha256": "cf6a91c1b58fb905de8669acd757da7315994dd43b113f5a8d7b5de5922731fc"
   },
-  {
+  "148": {
     "id": 148,
     "name": "Sir John A. Macdonald 200th Anniversary",
     "year": 2015,
@@ -2223,7 +2229,7 @@
     "note": "",
     "sha256": "d0ce90aa6969f3b972ce961cec69150c60c9dbfb457f8bb77f115aacb5745d9f"
   },
-  {
+  "149": {
     "id": 149,
     "name": "Battle of the Atlantic 75th Anniversary",
     "year": 2016,
@@ -2238,7 +2244,7 @@
     "note": "",
     "sha256": "d06ba3c840d49e5f57252ffa77405bea021c92b6138e8953a110dd2268fd156c"
   },
-  {
+  "150": {
     "id": 150,
     "name": "Canada 150 – Dance of the Spirits",
     "year": 2017,
@@ -2253,7 +2259,7 @@
     "note": "",
     "sha256": "ea922e17ad4003d6432721fe01e93ec7e75f750c9148eecb6b9e9f972aab00e9"
   },
-  {
+  "151": {
     "id": 151,
     "name": "Canada 150 – Dance of the Spirits",
     "year": 2017,
@@ -2268,7 +2274,7 @@
     "note": "",
     "sha256": "02de879e40c7df84b42c2a47612a58c286caffe68afb595a14d835d8cf5c96f1"
   },
-  {
+  "152": {
     "id": 152,
     "name": "Vimy Ridge 100th Anniversary",
     "year": 2017,
@@ -2283,7 +2289,7 @@
     "note": "",
     "sha256": "2eb6c14a7d75ae11f64504d9ef68dbdd46ae8ac1e46f1506cd610d0541ab44ee"
   },
-  {
+  "153": {
     "id": 153,
     "name": "Armistice 100th Anniversary",
     "year": 2018,
@@ -2298,7 +2304,7 @@
     "note": "",
     "sha256": "9a1149cfb6f3cfc65c98b5f57effd570decd1dd931dfbc29d5668ae44f79db6a"
   },
-  {
+  "154": {
     "id": 154,
     "name": "Armistice 100th Anniversary",
     "year": 2018,
@@ -2313,7 +2319,7 @@
     "note": "",
     "sha256": "c16b1b6345c473f3d62db79320c12cb1f536e509a66fa27ca6822344f0909a05"
   },
-  {
+  "155": {
     "id": 155,
     "name": "D-Day 75th Anniversary",
     "year": 2019,
@@ -2328,7 +2334,7 @@
     "note": "",
     "sha256": "60aa31dc73b857e420c8a38c7d8f77319841abaf631b0b503413d8c0e887de5a"
   },
-  {
+  "156": {
     "id": 156,
     "name": "D-Day 75th Anniversary",
     "year": 2019,
@@ -2343,7 +2349,7 @@
     "note": "",
     "sha256": "5f7de2c6fa246ae696fd736714cf075d9d3261582e5146b90afa1e3c23c9600a"
   },
-  {
+  "157": {
     "id": 157,
     "name": "75th Anniversary of the End of WWII",
     "year": 2020,
@@ -2358,7 +2364,7 @@
     "note": "",
     "sha256": "bc238d7917aab906a21102e7b0b2d071494f3a8d7c85f60da55e70830537620e"
   },
-  {
+  "158": {
     "id": 158,
     "name": "75th Anniversary of the End of WWII",
     "year": 2020,
@@ -2372,7 +2378,7 @@
     "image": null,
     "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
   },
-  {
+  "159": {
     "id": 159,
     "name": "Bill Reid 100th Anniversary",
     "year": 2020,
@@ -2387,7 +2393,7 @@
     "note": "",
     "sha256": "4786df5f9e42cd1507c3854353449598e5813815278e6a2eca6e2e7203a5a5c1"
   },
-  {
+  "160": {
     "id": 160,
     "name": "Bill Reid 100th Anniversary",
     "year": 2020,
@@ -2401,7 +2407,7 @@
     "image": null,
     "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
   },
-  {
+  "161": {
     "id": 161,
     "name": "Discovery of Insulin 100th Anniversary",
     "year": 2021,
@@ -2416,7 +2422,7 @@
     "note": "",
     "sha256": "692b72cf5bc197aa914208d31d4bff554a0b5a1084374e1fce8b7b39bd3eae2f"
   },
-  {
+  "162": {
     "id": 162,
     "name": "Discovery of Insulin 100th Anniversary",
     "year": 2021,
@@ -2431,7 +2437,7 @@
     "note": "",
     "sha256": "15d01c7b88d48c3f5ad9733ef6fc2c6677d5ef1ce9d7b69211b9ee0b43198c57"
   },
-  {
+  "163": {
     "id": 163,
     "name": "1972 Summit Series 50th Anniversary",
     "year": 2022,
@@ -2446,7 +2452,7 @@
     "note": "",
     "sha256": "bf18acccda13b30a25c8a83af4d48181a173c60f5b7eb16c7b39e515d96e2b60"
   },
-  {
+  "164": {
     "id": 164,
     "name": "1972 Summit Series 50th Anniversary",
     "year": 2022,
@@ -2461,7 +2467,7 @@
     "note": "",
     "sha256": "3fc54a54562f7e9af59891f9930c876bf236072db1bf17829c6eddf81d334d7a"
   },
-  {
+  "165": {
     "id": 165,
     "name": "Queen Elizabeth II Memorial – black outer ring",
     "year": 2022,
@@ -2476,7 +2482,7 @@
     "note": "",
     "sha256": "d355df1297e1c25cb96a923baf94ac7feaa1d7c812a57a7185c6849542190389"
   },
-  {
+  "166": {
     "id": 166,
     "name": "Jean Paul Riopelle 100th Anniversary",
     "year": 2023,
@@ -2491,7 +2497,7 @@
     "note": "",
     "sha256": "5857954afd644a7e3f51c7c9e23e81993cb8061418cc889f2c2a06a9ca7a2de1"
   },
-  {
+  "167": {
     "id": 167,
     "name": "Jean Paul Riopelle 100th Anniversary",
     "year": 2023,
@@ -2506,7 +2512,7 @@
     "note": "",
     "sha256": "ae5873d818ad3d36443be3daf6cd1566eedae85be52cedde6f101f6af6583bab"
   },
-  {
+  "168": {
     "id": 168,
     "name": "National Indigenous Peoples Day",
     "year": 2023,
@@ -2521,7 +2527,7 @@
     "note": "",
     "sha256": "bf0b9c32c39d32176ed7c645bc8b2f46e0560d79e08862c1bd43d10a87c7833a"
   },
-  {
+  "169": {
     "id": 169,
     "name": "National Indigenous Peoples Day",
     "year": 2023,
@@ -2536,7 +2542,7 @@
     "note": "",
     "sha256": "a6949601e2ac29900f784658708d63b1fc4641311025a596570fad0b9d275881"
   },
-  {
+  "170": {
     "id": 170,
     "name": "Inuit Nunangat",
     "year": 2024,
@@ -2551,7 +2557,7 @@
     "note": "",
     "sha256": "d98f46af7f0a862e7f5130f24ba93c10bef0253490f399905bf0c7be37e8d318"
   },
-  {
+  "171": {
     "id": 171,
     "name": "Inuit Nunangat",
     "year": 2024,
@@ -2566,7 +2572,7 @@
     "note": "",
     "sha256": "e9d0d522646aa30c55780726b72e7970a4131545a21fa178f3ff9e1f1719c6fb"
   },
-  {
+  "172": {
     "id": 172,
     "name": "Royal Canadian Air Force 100th Anniversary",
     "year": 2024,
@@ -2581,7 +2587,7 @@
     "note": "",
     "sha256": "b5d4ac5c6f9f2dd3b5eb19a38f3d5ed166e2c90952c8aa224f8c738461fb1fc2"
   },
-  {
+  "173": {
     "id": 173,
     "name": "Royal Canadian Air Force 100th Anniversary",
     "year": 2024,
@@ -2596,7 +2602,7 @@
     "note": "",
     "sha256": "5a1e60a3755ec2c9bf300fe1af9d8960b665bdb4041fd1d7140e0b452a17d249"
   },
-  {
+  "174": {
     "id": 174,
     "name": "Canada's Unknown Soldier",
     "year": 2025,
@@ -2610,7 +2616,7 @@
     "image": null,
     "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
   },
-  {
+  "175": {
     "id": 175,
     "name": "Canada's Unknown Soldier",
     "year": 2025,
@@ -2624,7 +2630,7 @@
     "image": null,
     "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
   },
-  {
+  "176": {
     "id": 176,
     "name": "Daphne Odjig",
     "year": 2025,
@@ -2639,7 +2645,7 @@
     "note": "",
     "sha256": "3d3c8f3525a3b5787ea220c7ac05a80b4787e18eea7008e64a87fa7904f45a89"
   },
-  {
+  "177": {
     "id": 177,
     "name": "Daphne Odjig",
     "year": 2025,
@@ -2653,7 +2659,7 @@
     "image": null,
     "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
   },
-  {
+  "178": {
     "id": 178,
     "name": "CN Tower 50th Anniversary",
     "year": 2026,
@@ -2668,7 +2674,7 @@
     "note": "",
     "sha256": "f07c6ad0c19fc24c6019a3d2a8dce3c20ee34f22a686cdbe66779ebf37fbaf2d"
   },
-  {
+  "179": {
     "id": 179,
     "name": "CN Tower 50th Anniversary",
     "year": 2026,
@@ -2682,7 +2688,7 @@
     "image": null,
     "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
   },
-  {
+  "180": {
     "id": 180,
     "name": "Royal Canadian Legion 100th Anniversary",
     "year": 2026,
@@ -2697,7 +2703,7 @@
     "note": "",
     "sha256": "cc6031f16ac7bd025ee50204e8890519124ae9b8afa73efb996f014eebe5565a"
   },
-  {
+  "181": {
     "id": 181,
     "name": "Royal Canadian Legion 100th Anniversary",
     "year": 2026,
@@ -2711,4 +2717,4 @@
     "image": null,
     "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
   }
-]
+}
