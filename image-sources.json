@@ -1060,12 +1060,13 @@
     "variant": "Standard",
     "catalog": "25 cents - Cindy Klassen - #CDM-2340",
     "sourcePage": "https://cnumis.com/en/catalog/canada/type/25-cents-cindy-klassen-2340",
-    "imageUrl": null,
+    "imageUrl": "https://img.cnumis.com/illustrations/types/canada/coins/m/2340-coin-des-monnaies-canada-25-cents-cindy-klassen-revers.jpg",
     "vintage": null,
     "credit": "CNumis",
-    "status": "source-link",
-    "image": null,
-    "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
+    "status": "design-reference",
+    "image": "images/070.jpg",
+    "note": "Design reference: photo shows the colour version.",
+    "sha256": "a8bffd269da544472ac30e0fe6ba36251de28e85cd2c2f7533ecdeda3af7c32e"
   },
   "71": {
     "id": 71,
@@ -1074,12 +1075,13 @@
     "variant": "Standard",
     "catalog": "25 cents - Men's hockey - #CDM-2336",
     "sourcePage": "https://cnumis.com/en/catalog/canada/type/25-cents-men-s-hockey-2336",
-    "imageUrl": null,
+    "imageUrl": "https://img.cnumis.com/illustrations/types/canada/coins/m/2336-coin-des-monnaies-canada-25-cents-men-s-hockey-revers.jpg",
     "vintage": null,
     "credit": "CNumis",
-    "status": "source-link",
-    "image": null,
-    "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
+    "status": "design-reference",
+    "image": "images/071.jpg",
+    "note": "Design reference: photo shows the colour version.",
+    "sha256": "3b444f91fe52c3a45d9b3f54315d75c22c1f0799586a5fcc8a5bfc84b8ad3abd"
   },
   "72": {
     "id": 72,
@@ -1103,12 +1105,13 @@
     "variant": "Standard",
     "catalog": "25 cents - Women's hockey - #CDM-2338",
     "sourcePage": "https://cnumis.com/en/catalog/canada/type/25-cents-women-s-hockey-2338",
-    "imageUrl": null,
+    "imageUrl": "https://img.cnumis.com/illustrations/types/canada/coins/m/2338-coin-des-monnaies-canada-25-cents-women-s-hockey-revers.jpg",
     "vintage": null,
     "credit": "CNumis",
-    "status": "source-link",
-    "image": null,
-    "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
+    "status": "design-reference",
+    "image": "images/073.jpg",
+    "note": "Design reference: photo shows the colour version.",
+    "sha256": "8174632a3b2428104ae6e0e11507d3b455d443eaa8a8ca9712ae68ffb9c78e7b"
   },
   "74": {
     "id": 74,
@@ -1207,12 +1210,13 @@
     "variant": "Non-colour",
     "catalog": "25 cents - Isaac Brock - #CDM-2349",
     "sourcePage": "https://cnumis.com/en/catalog/canada/type/25-cents-isaac-brock-2349",
-    "imageUrl": null,
+    "imageUrl": "https://img.cnumis.com/illustrations/types/canada/coins/m/2349-coin-des-monnaies-canada-25-cents-isaac-brock-revers.jpg",
     "vintage": null,
     "credit": "CNumis",
-    "status": "source-link",
-    "image": null,
-    "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
+    "status": "design-reference",
+    "image": "images/080.jpg",
+    "note": "Design reference: photo shows the colour version.",
+    "sha256": "c41c58585024144b572a623454904c494404d6f9917e7db67a3a3bd049e62798"
   },
   "81": {
     "id": 81,
@@ -1236,12 +1240,13 @@
     "variant": "Non-colour",
     "catalog": "25 cents - Tecumseh - #CDM-2347",
     "sourcePage": "https://cnumis.com/en/catalog/canada/type/25-cents-tecumseh-2347",
-    "imageUrl": null,
+    "imageUrl": "https://img.cnumis.com/illustrations/types/canada/coins/m/2347-coin-des-monnaies-canada-25-cents-tecumseh-revers.jpg",
     "vintage": null,
     "credit": "CNumis",
-    "status": "source-link",
-    "image": null,
-    "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
+    "status": "design-reference",
+    "image": "images/082.jpg",
+    "note": "Design reference: photo shows the colour version.",
+    "sha256": "fd7e7f0646daac75c58ff7b7196dc78b9cabae1b683335d35752b8cbdcb67aee"
   },
   "83": {
     "id": 83,
@@ -1325,12 +1330,13 @@
     "variant": "Non-colour",
     "catalog": "25 cents - Laura Secord - #CDM-2353",
     "sourcePage": "https://cnumis.com/en/catalog/canada/type/25-cents-laura-secord-2353",
-    "imageUrl": null,
+    "imageUrl": "https://img.cnumis.com/illustrations/types/canada/coins/m/2353-coin-des-monnaies-canada-25-cents-laura-secord-revers.jpg",
     "vintage": null,
     "credit": "CNumis",
-    "status": "source-link",
-    "image": null,
-    "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
+    "status": "photo",
+    "image": "images/088.jpg",
+    "note": "",
+    "sha256": "46960642c777b11c2630378e18f86bb7f1669dc174db5b1f74a43526a62ae001"
   },
   "89": {
     "id": 89,
@@ -1953,12 +1959,13 @@
     "variant": "Standard / non-colour",
     "catalog": "1 dollar - Alexander Graham Bell - #CDM-43007",
     "sourcePage": "https://cnumis.com/en/catalog/canada/type/1-dollar-alexander-graham-bell-43007",
-    "imageUrl": null,
+    "imageUrl": "https://img.cnumis.com/illustrations/types/canada/coins/m/43007-coin-des-monnaies-canada-1-dollar-alexander-graham-bell-revers.jpg",
     "vintage": null,
     "credit": "CNumis",
-    "status": "source-link",
-    "image": null,
-    "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
+    "status": "design-reference",
+    "image": "images/130.jpg",
+    "note": "Design reference: photo shows the colour version.",
+    "sha256": "15b8d79895012330bbe3fdd6bfdb15e816e1fd8b43378bbbbf1781fa95464417"
   },
   "131": {
     "id": 131,
@@ -1982,12 +1989,13 @@
     "variant": "Non-colour",
     "catalog": "1 dollar - Oscar Peterson - #CDM-43006",
     "sourcePage": "https://cnumis.com/en/catalog/canada/type/1-dollar-oscar-peterson-43006",
-    "imageUrl": null,
+    "imageUrl": "https://img.cnumis.com/illustrations/types/canada/coins/m/43006-coin-des-monnaies-canada-1-dollar-oscar-peterson-revers.jpg",
     "vintage": null,
     "credit": "CNumis",
-    "status": "source-link",
-    "image": null,
-    "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
+    "status": "design-reference",
+    "image": "images/132.jpg",
+    "note": "Design reference: photo shows the colour version.",
+    "sha256": "61bb92aceeb6ce60943b067b3794e6a04eeb2b38f86851d19db6b6f6bd3489fe"
   },
   "133": {
     "id": 133,
@@ -2371,12 +2379,13 @@
     "variant": "Non-colour",
     "catalog": "2 dollars - Victory - 75 years - #CDM-43010",
     "sourcePage": "https://cnumis.com/en/catalog/canada/type/2-dollars-victory-75-years-43010",
-    "imageUrl": null,
+    "imageUrl": "https://img.cnumis.com/illustrations/types/canada/coins/m/43010-coin-des-monnaies-canada-2-dollars-victory-75-years-revers.jpg",
     "vintage": null,
     "credit": "CNumis",
-    "status": "source-link",
-    "image": null,
-    "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
+    "status": "design-reference",
+    "image": "images/158.jpg",
+    "note": "Design reference: photo shows the colour version.",
+    "sha256": "9f88c4d532a8fb5dacbc3993ee152d1b50d18fe4effd2edf40ac4e079b06ddb1"
   },
   "159": {
     "id": 159,
@@ -2400,12 +2409,13 @@
     "variant": "Non-colour",
     "catalog": "2 dollars - Haida grizzly bear - #CDM-43009",
     "sourcePage": "https://cnumis.com/en/catalog/canada/type/2-dollars-haida-grizzly-bear-43009",
-    "imageUrl": null,
+    "imageUrl": "https://img.cnumis.com/illustrations/types/canada/coins/m/43009-coin-des-monnaies-canada-2-dollars-haida-grizzly-bear-revers.jpg",
     "vintage": null,
     "credit": "CNumis",
-    "status": "source-link",
-    "image": null,
-    "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
+    "status": "design-reference",
+    "image": "images/160.jpg",
+    "note": "Design reference: photo shows the colour version.",
+    "sha256": "8239d8aa55ba7d2180dac990ff9f1cba5a4450ff32c2fa42edd645d4234cc0be"
   },
   "161": {
     "id": 161,
@@ -2609,12 +2619,13 @@
     "variant": "Colour",
     "catalog": "2 dollars - Souvenir - #CDM-66725",
     "sourcePage": "https://www.mint.ca/en/discover/canadian-commemorative-circulation-program/2025/canadas-unknown-soldier",
-    "imageUrl": null,
+    "imageUrl": "https://www.mint.ca/globalassets/products/2025/l11/tomb/251003-2025-2-honouring-canadas-unknown-soldier-colourized-special-wrap-roll/251003_hero-en_1200.png",
     "vintage": null,
     "credit": "Royal Canadian Mint",
-    "status": "source-link",
-    "image": null,
-    "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
+    "status": "photo",
+    "image": "images/174.png",
+    "note": "Official image · coin and presentation roll.",
+    "sha256": "f3983707166b36ed727b2bba64de9d755ebd2da7e7363c10b752c375811180f1"
   },
   "175": {
     "id": 175,
@@ -2623,12 +2634,13 @@
     "variant": "Non-colour",
     "catalog": "2 dollars - Souvenir - #CDM-66725",
     "sourcePage": "https://www.mint.ca/en/discover/canadian-commemorative-circulation-program/2025/canadas-unknown-soldier",
-    "imageUrl": null,
+    "imageUrl": "https://www.mint.ca/globalassets/products/2025/l11/tomb/251002-2025-2-honouring-canadas-unknown-soldier-non-colourized-special-wrap-roll/251002_hero-en_1200.png",
     "vintage": null,
     "credit": "Royal Canadian Mint",
-    "status": "source-link",
-    "image": null,
-    "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
+    "status": "photo",
+    "image": "images/175.png",
+    "note": "Official image · coin and presentation roll.",
+    "sha256": "696ac7f51c9141a7db8e4924ae5a4bb5fae3958518c8a74687d6936a73b16093"
   },
   "176": {
     "id": 176,
@@ -2652,12 +2664,13 @@
     "variant": "Non-colour",
     "catalog": "2 dollars - Daphne Odjig - #CDM-63321",
     "sourcePage": "https://cnumis.com/en/catalog/canada/type/2-dollars-daphne-odjig-63321",
-    "imageUrl": null,
+    "imageUrl": "https://img.cnumis.com/illustrations/types/canada/coins/m/63321-coin-des-monnaies-canada-2-dollars-daphne-odjig-revers.jpg",
     "vintage": null,
     "credit": "CNumis",
-    "status": "source-link",
-    "image": null,
-    "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
+    "status": "design-reference",
+    "image": "images/177.jpg",
+    "note": "Design reference: photo shows the colour version.",
+    "sha256": "86141ccbb7d99649eda73945c06a42dae23ac13ac23a97d8bda3dac77731341c"
   },
   "178": {
     "id": 178,
@@ -2681,12 +2694,13 @@
     "variant": "Non-colour",
     "catalog": "2 dollars - CN Tower - 50 years - #CDM-67801",
     "sourcePage": "https://cnumis.com/en/catalog/canada/type/2-dollars-cn-tower-50-years-67801",
-    "imageUrl": null,
+    "imageUrl": "https://img.cnumis.com/illustrations/types/canada/coins/m/67801-coin-des-monnaies-canada-2-dollars-cn-tower-50-years-revers.jpg",
     "vintage": null,
     "credit": "CNumis",
-    "status": "source-link",
-    "image": null,
-    "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
+    "status": "design-reference",
+    "image": "images/179.jpg",
+    "note": "Design reference: photo shows the colour version.",
+    "sha256": "ae0d8b311a93a1c522241e5ca92e99ad1906bf7138751e75471024595e08f7e9"
   },
   "180": {
     "id": 180,
@@ -2710,11 +2724,12 @@
     "variant": "Non-colour",
     "catalog": "2 dollars - Royal Canadian Legion - 100 years - #CDM-69091",
     "sourcePage": "https://cnumis.com/en/catalog/canada/type/2-dollars-royal-canadian-legion-100-years-69091",
-    "imageUrl": null,
+    "imageUrl": "https://img.cnumis.com/illustrations/types/canada/coins/m/69091-coin-des-monnaies-canada-2-dollars-royal-canadian-legion-100-years-revers.jpg",
     "vintage": null,
     "credit": "CNumis",
-    "status": "source-link",
-    "image": null,
-    "note": "Exact variant photograph not available for reuse; open the source and check the stated year and variant."
+    "status": "design-reference",
+    "image": "images/181.jpg",
+    "note": "Design reference: photo shows the colour version.",
+    "sha256": "745a9692bd096406748a68eb581995f13eff80559bd2879bd13edf7f0f931b88"
   }
 }
