@@ -4,11 +4,11 @@ Personal checklist of Canadian special and commemorative circulation coins. Open
 
 ## Collection and saved progress
 
-The checklist contains **182 entries**, with **81 owned defaults**. Seven silver-composition issues were removed previously. The four nickel dollars explicitly removed by the owner are 1973 Prince Edward Island, 1974 Winnipeg, 1982 Constitution and 1984 Jacques Cartier; the 1970 and 1971 nickel dollars remain.
+The checklist contains **178 entries**, with **81 owned defaults**. Seven silver-composition issues were removed previously. The six nickel dollars explicitly removed by the owner are 1970 Manitoba, 1971 British Columbia, 1973 Prince Edward Island, 1974 Winnipeg, 1982 Constitution and 1984 Jacques Cartier. The owner also removed the 1945 Victory Nickel and 1951 Identification of Nickel entries.
 
 Existing coin IDs and the `alex-coins-v1` localStorage key remain unchanged. Saved true and false selections override defaults. Remaining entries are never renumbered, and new IDs 182–193 start missing. The erroneous 2005 Lucky Loonie (ID 110) is merged into the existing 2006 coin (ID 112); an owned selection on either entry is retained. [The Mint's 2006 annual report](https://publications.gc.ca/collections/collection_2010/mint/F71-2006-eng.pdf) explains that 2006-dated Lucky Loonies were also produced in 2005. The existing 2006 coin has its own photograph.
 
-Search, denomination filters, Missing only, progress and photo enlargement remain available. Versioned script and image URLs refresh changed assets without clearing saved progress.
+Search, denomination filters, Missing only, Coloured only, progress and photo enlargement remain available. Versioned script and image URLs refresh changed assets without clearing saved progress.
 
 ## Variant audit — 7 October 2026
 
@@ -32,6 +32,6 @@ Primary references: [Legendary Nature 12-pack](https://www.mint.ca/en/shop/coins
 
 ## Photographs
 
-179 entries have bundled photographs of their listed variant. Three entries use source links while exact photographs remain pending: Tecumseh non-colour (82), End of WWII non-colour (158), and Arctic Expedition frosted compass (191). A colour or different-finish photograph is never used as an exact photograph for these entries.
+All 178 entries now have bundled photographs of their listed variant. Exact non-colour photographs were added for Tecumseh (82), End of WWII (158, CNumis vintage 210154), and Arctic Expedition frosted compass (191). Imaginaire calls the latter brilliant finish, referring to its reflective explorers; this contrasts with the existing frosted-explorers coin (83). Bell colour (183) now uses the Mint's front-facing image. The Coloured only toggle combines with search, denomination and Missing only; it excludes unpainted coins and the black-ring toonie.
 
 Photos are credited to CNumis, Wikimedia Commons contributors, Royal Canadian Mint and Imaginaire. Original imagery and embedded notices are preserved. Mint and Imaginaire imagery is included at the owner's request for this personal noncommercial checklist. `image-sources.json` and `images.js` record matching local paths, source pages, original URLs and SHA-256 checksums. Source attribution does not imply ownership. Older unused bundled images are retained for recovery.
