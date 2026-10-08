@@ -12,7 +12,7 @@ if(!coin || !COIN_STORIES[id]) {
   $('#coinTitle').textContent=coin.name;
   $('#coinVariant').textContent=coin.variant;
   for(const [target,field] of [['#coinIssued','issued'],['#coinWhy','why'],['#coinDesign','design'],['#coinVersion','variant']]) $(target).textContent=story[field];
-  $('#detailPhoto').src=image.image+'?v=20261008a';
+  $('#detailPhoto').src=image.image+'?v=20261008c';
   $('#detailPhoto').alt=`${coin.year} ${coin.name} — ${coin.variant}, reverse`;
   if(image.crop){const [x,y,w,h,W,H]=image.crop;$('#detailPhotoFrame').className='cropped';$('#detailPhotoFrame').setAttribute('style',`--crop-ratio:${w}/${h};--image-width:${W/w*100}%;--image-height:${H/h*100}%;--image-left:${-x/w*100}%;--image-top:${-y/h*100}%`);}
   $('#detailPhoto').onerror=()=>{$('#detailPhotoFrame').hidden=true;$('#imageNote').textContent='Image unavailable. Open the original source below to view this coin.';};

@@ -1114,22 +1114,14 @@
     "name": "War of 1812 – Sir Isaac Brock",
     "year": 2012,
     "variant": "Non-colour",
-    "sourcePage": "https://imaginaire.com/en/coins-and-paper-money/25-cent-2012-25-cent-sir-isaac-brock-2012-canadian-coins.html",
-    "imageUrl": "https://imaginaire.com/en/images/25-CENT-2012-25-CENT-SIR-ISAAC-BROCK-2012-CANADIAN-COINS__252012BR.JPG",
-    "credit": "Imaginaire / Royal Canadian Mint",
+    "sourcePage": "https://www.mint.ca/en/shop/coins/2012/major-general-sir-isaac-brock-25-cent-circulation-10-pack-2012-pack-119907",
+    "imageUrl": "https://www.mint.ca/globalassets/products/2012/119907_rev-640.png",
+    "credit": "Royal Canadian Mint",
     "status": "photo",
-    "image": "080.jpg",
+    "image": "080.png",
     "note": "",
-    "sha256": "d24a4abe40c8520a45e09536a0d42b42f4d9ed3ffe036e4dfa336e0947d22810",
-    "verifiedOn": "2026-10-07",
-    "crop": [
-      0,
-      0,
-      185,
-      184,
-      372,
-      184
-    ]
+    "sha256": "da94f79894707e3f87cec9765ebee6b4950513cce2a3c9a9809e82c8d325f148",
+    "verifiedOn": "2026-10-08"
   },
   "81": {
     "id": 81,
@@ -1152,23 +1144,15 @@
     "year": 2012,
     "variant": "Non-colour",
     "catalog": "25 cents - Tecumseh - #CDM-2347",
-    "sourcePage": "https://imaginaire.com/en/coins-and-paper-money/25-cent-2012-25-cent-tecumseh-bu-2012-canadian-coins.html",
-    "imageUrl": "https://imaginaire.com/en/images/25-CENT-2012-25-CENT-TECUMSEH-BU-2012-CANADIAN-COINS__2512TE-Z.JPG",
+    "sourcePage": "https://www.mint.ca/en/shop/coins/2012/tecumseh-25-cent-circulation-10-pack-2012-pack-119680",
+    "imageUrl": "https://www.mint.ca/globalassets/products/2012/119680_rev-unpainted-640.png",
     "vintage": null,
-    "credit": "Imaginaire / Royal Canadian Mint",
+    "credit": "Royal Canadian Mint",
     "status": "photo",
-    "image": "082.jpg",
+    "image": "082.png",
     "note": "",
-    "sha256": "6b6a0573aa5bdf0b946048dcea2263421546508cf397a7bcda8b70ad3c1f7c8f",
-    "verifiedOn": "2026-10-07",
-    "crop": [
-      0,
-      0,
-      300,
-      297,
-      600,
-      297
-    ]
+    "sha256": "9ea75dec5b045c473f9f5daa9d18af0d0d82ffbcf416ed136c319afe3c69a3a8",
+    "verifiedOn": "2026-10-08"
   },
   "84": {
     "id": 84,
@@ -2581,22 +2565,14 @@
     "name": "Arctic Expedition",
     "year": 2013,
     "variant": "Non-colour",
-    "image": "191.jpg",
-    "imageUrl": "https://imaginaire.com/en/images/25-CENT-2013-25-CENT-ARCTIC-EXPEDITION-S-BRILLIANT-FINISH-2013-CANADIAN-COINS__252013EX.JPG",
-    "sourcePage": "https://imaginaire.com/en/coins-and-paper-money/25-cent-2013-25-cent-arctic-expedition-s-brilliant-finish-circulated-2013-canadian-coins.html",
-    "credit": "Imaginaire / Royal Canadian Mint",
+    "image": "191.png",
+    "imageUrl": "https://www.mint.ca/globalassets/products/2013/127677_arcticexplore1_640.png",
+    "sourcePage": "https://www.mint.ca/en-us/shopping/archives/2013/100th-anniversary-of-the-first-canadian-arctic-expedition-25-cent-12-pack-2013-pack-127677",
+    "credit": "Royal Canadian Mint",
     "status": "photo",
     "note": "Two circulation frost finishes share this design; collected as one checklist entry.",
-    "verifiedOn": "2026-10-07",
-    "sha256": "ec238ac744d830c4addb55fc0f3bec275ecd742a4fad16f60afb17dd59a84b0b",
-    "crop": [
-      0,
-      0,
-      279,
-      279,
-      558,
-      279
-    ]
+    "verifiedOn": "2026-10-08",
+    "sha256": "db0c36220a1f77aa585db9d6e9376b720ca7372fe5a0501fab45546b821bc665"
   },
   "193": {
     "id": 193,
