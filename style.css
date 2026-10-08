@@ -15,3 +15,10 @@
 .card .sourceFallback{display:flex;align-items:center;justify-content:center;padding:24px}
 @media(max-width:720px){.card .visual{height:185px}.card .coinPhoto{padding:12px}}
 
+
+/* Clip original two-sided photographs to the commemorative reverse. */
+.card .coinCrop{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:min(calc(100% - 28px),192px);aspect-ratio:var(--crop-ratio);overflow:hidden;background:white}
+.card .coinCrop .coinPhoto,#photoFrame.cropped #largePhoto{inset:auto;left:var(--image-left);top:var(--image-top);width:var(--image-width);height:var(--image-height);max-width:none;max-height:none;object-fit:fill;padding:0;position:absolute}
+#photoFrame.cropped{position:relative;overflow:hidden;width:min(100%,65vh);aspect-ratio:var(--crop-ratio);margin:auto;background:white}
+.card.reference{border-color:#8e7b46}.reference .meta{color:#d8bd6b}
+@media(max-width:720px){.card .coinCrop{width:min(calc(100% - 24px),161px)}}

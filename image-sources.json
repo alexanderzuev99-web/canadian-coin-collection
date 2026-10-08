@@ -1,36 +1,4 @@
 {
-  "0": {
-    "id": 0,
-    "name": "Victory Nickel",
-    "year": 1943,
-    "variant": "Standard / non-colour",
-    "catalog": "5 cents - George VI - Torch - #CDM-2292",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:1943_Canada_Tombac_5c_Rev.jpeg",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/1943_Canada_Tombac_5c_Rev.jpeg",
-    "vintage": null,
-    "credit": "Editosaurus",
-    "status": "photo",
-    "image": "000.jpg",
-    "note": "",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "sha256": "5acedb27195d586ba0d9de49a0062aa17f6714994e7d4d7d2d62e339d5193e19"
-  },
-  "1": {
-    "id": 1,
-    "name": "Victory Nickel",
-    "year": 1944,
-    "variant": "Standard / non-colour",
-    "catalog": "5 cents - George VI - Torch - #CDM-2292",
-    "sourcePage": "https://cnumis.com/en/catalog/canada/type/5-cents-george-vi-torch-2292",
-    "imageUrl": "https://img.cnumis.com/illustrations/vintages/0008001-0009000/8247R.jpg",
-    "vintage": "1944 Acier chromé <div style=\"cursor: pointer;\" data-toggle=\"modal\" data-target=\"#view-vintage\"",
-    "credit": "CNumis",
-    "status": "photo",
-    "image": "001.jpg",
-    "note": "",
-    "sha256": "eac7bff3cd544f20f06da722b26a41a72e81d49bf68d73ed6fb79ba01b5c13ba"
-  },
   "4": {
     "id": 4,
     "name": "Centennial – Hare",
@@ -1151,9 +1119,17 @@
     "credit": "Imaginaire / Royal Canadian Mint",
     "status": "photo",
     "image": "080.jpg",
-    "note": "Obverse and reverse shown.",
+    "note": "",
     "sha256": "d24a4abe40c8520a45e09536a0d42b42f4d9ed3ffe036e4dfa336e0947d22810",
-    "verifiedOn": "2026-10-07"
+    "verifiedOn": "2026-10-07",
+    "crop": [
+      0,
+      0,
+      185,
+      184,
+      372,
+      184
+    ]
   },
   "81": {
     "id": 81,
@@ -1182,37 +1158,30 @@
     "credit": "Imaginaire / Royal Canadian Mint",
     "status": "photo",
     "image": "082.jpg",
-    "note": "Obverse and reverse shown.",
-    "sha256": "6b6a0573aa5bdf0b946048dcea2263421546508cf397a7bcda8b70ad3c1f7c8f",
-    "verifiedOn": "2026-10-07"
-  },
-  "83": {
-    "id": 83,
-    "name": "Arctic Expedition",
-    "year": 2013,
-    "variant": "Non-colour · frosted explorers",
-    "catalog": "25 cents - Explorers - #CDM-2355",
-    "sourcePage": "https://cnumis.com/en/catalog/canada/type/25-cents-explorers-2355",
-    "imageUrl": "https://img.cnumis.com/illustrations/types/canada/coins/m/2355-coin-des-monnaies-canada-25-cents-explorers-revers.jpg",
-    "vintage": null,
-    "credit": "CNumis",
-    "status": "photo",
-    "image": "083.jpg",
     "note": "",
-    "sha256": "da164099fb97badee11e63398c0337a94d5ac41984eb78deead3539ea7d4ae4c"
+    "sha256": "6b6a0573aa5bdf0b946048dcea2263421546508cf397a7bcda8b70ad3c1f7c8f",
+    "verifiedOn": "2026-10-07",
+    "crop": [
+      0,
+      0,
+      300,
+      297,
+      600,
+      297
+    ]
   },
   "84": {
     "id": 84,
     "name": "Life in the North",
     "year": 2013,
-    "variant": "Non-colour · frosted bowhead whale",
+    "variant": "Non-colour",
     "catalog": "25 cents - Three whales - #CDM-2357",
     "sourcePage": "https://cnumis.com/en/catalog/canada/type/25-cents-three-whales-2357",
     "imageUrl": "https://img.cnumis.com/illustrations/vintages/0069001-0070000/69288R.jpg",
     "credit": "CNumis",
     "status": "photo",
     "image": "084.jpg",
-    "note": "",
+    "note": "Two circulation frost finishes share this design; collected as one checklist entry.",
     "sha256": "bdf8b7f92e770cdfb0990d6b313a6569443167dd2463e756353d2ceb3a060498",
     "verifiedOn": "2026-10-07"
   },
@@ -2611,29 +2580,23 @@
     "id": 191,
     "name": "Arctic Expedition",
     "year": 2013,
-    "variant": "Non-colour · frosted compass",
+    "variant": "Non-colour",
     "image": "191.jpg",
     "imageUrl": "https://imaginaire.com/en/images/25-CENT-2013-25-CENT-ARCTIC-EXPEDITION-S-BRILLIANT-FINISH-2013-CANADIAN-COINS__252013EX.JPG",
     "sourcePage": "https://imaginaire.com/en/coins-and-paper-money/25-cent-2013-25-cent-arctic-expedition-s-brilliant-finish-circulated-2013-canadian-coins.html",
     "credit": "Imaginaire / Royal Canadian Mint",
     "status": "photo",
-    "note": "Obverse and reverse shown. Brilliant explorers with a frosted compass.",
+    "note": "Two circulation frost finishes share this design; collected as one checklist entry.",
     "verifiedOn": "2026-10-07",
-    "sha256": "ec238ac744d830c4addb55fc0f3bec275ecd742a4fad16f60afb17dd59a84b0b"
-  },
-  "192": {
-    "id": 192,
-    "name": "Life in the North",
-    "year": 2013,
-    "variant": "Non-colour · frosted beluga whales",
-    "image": "192.jpg",
-    "imageUrl": "https://img.cnumis.com/illustrations/vintages/0069001-0070000/69287R.jpg",
-    "sourcePage": "https://cnumis.com/en/catalog/canada/type/25-cents-three-whales-2357",
-    "credit": "CNumis",
-    "status": "photo",
-    "note": "",
-    "sha256": "e5ff1631252650a180bda5ae9f47a96c6a553477cfa9b83d10ded7a33e523492",
-    "verifiedOn": "2026-10-07"
+    "sha256": "ec238ac744d830c4addb55fc0f3bec275ecd742a4fad16f60afb17dd59a84b0b",
+    "crop": [
+      0,
+      0,
+      279,
+      279,
+      558,
+      279
+    ]
   },
   "193": {
     "id": 193,
@@ -2647,6 +2610,79 @@
     "status": "photo",
     "note": "",
     "sha256": "44cb4c5c0fd8e029b3b847583f1d4d18f2a5e1d1e878af9a36c37ac35b867832",
-    "verifiedOn": "2026-10-07"
+    "verifiedOn": "2026-10-07",
+    "crop": [
+      310,
+      144,
+      290,
+      290,
+      611,
+      600
+    ]
+  },
+  "ref-5c": {
+    "id": "ref-5c",
+    "name": "Beaver",
+    "year": 2026,
+    "variant": "Standard circulation design",
+    "image": "ref-5c.png",
+    "imageUrl": "https://www.mint.ca/globalassets/products/2026/l7/254059-special-wrap-roll-collection-first-strikes-2026-pack-254059/254059_rev5c_1200.png",
+    "sourcePage": "https://www.mint.ca/en/discover/canadian-circulation/5-cents",
+    "credit": "Royal Canadian Mint",
+    "status": "photo",
+    "note": "",
+    "sha256": "601b7f27cb8c1287c5f31d3684a4712f67e5ee3ca683c11ea773bd94f32e8c31"
+  },
+  "ref-10c": {
+    "id": "ref-10c",
+    "name": "Bluenose",
+    "year": 2026,
+    "variant": "Standard circulation design",
+    "image": "ref-10c.png",
+    "imageUrl": "https://www.mint.ca/globalassets/products/2026/l7/254059-special-wrap-roll-collection-first-strikes-2026-pack-254059/254059_rev10c_1200.png",
+    "sourcePage": "https://www.mint.ca/en/discover/canadian-circulation/10-cents",
+    "credit": "Royal Canadian Mint",
+    "status": "photo",
+    "note": "",
+    "sha256": "4577cf6bfac75ca69005239a94d331d18dd00d9481401bdf8a79081ac743da6d"
+  },
+  "ref-25c": {
+    "id": "ref-25c",
+    "name": "Caribou",
+    "year": 2026,
+    "variant": "Standard circulation design",
+    "image": "ref-25c.png",
+    "imageUrl": "https://www.mint.ca/globalassets/products/2026/l7/254059-special-wrap-roll-collection-first-strikes-2026-pack-254059/254059_rev25c_1200.png",
+    "sourcePage": "https://www.mint.ca/en/discover/canadian-circulation/25-cents",
+    "credit": "Royal Canadian Mint",
+    "status": "photo",
+    "note": "",
+    "sha256": "4920fdc776ab1635ce93eff788d303eb57509f17f6b9ec08ca95deebe597f64c"
+  },
+  "ref-1dollar": {
+    "id": "ref-1dollar",
+    "name": "Common Loon",
+    "year": 2026,
+    "variant": "Standard circulation design",
+    "image": "ref-1dollar.png",
+    "imageUrl": "https://www.mint.ca/globalassets/products/2026/l7/254059-special-wrap-roll-collection-first-strikes-2026-pack-254059/254059_rev1dollar_1200.png",
+    "sourcePage": "https://www.mint.ca/en/discover/canadian-circulation/1-dollar",
+    "credit": "Royal Canadian Mint",
+    "status": "photo",
+    "note": "",
+    "sha256": "4442a3d2c81398f6872ba140ac8ffb0c9090e1ba86e191201f359b424ec7391b"
+  },
+  "ref-2dollar": {
+    "id": "ref-2dollar",
+    "name": "Polar Bear",
+    "year": 2026,
+    "variant": "Standard circulation design",
+    "image": "ref-2dollar.png",
+    "imageUrl": "https://www.mint.ca/globalassets/products/2026/l7/254059-special-wrap-roll-collection-first-strikes-2026-pack-254059/254059_rev2dollar_1200.png",
+    "sourcePage": "https://www.mint.ca/en/discover/canadian-circulation/2-dollars",
+    "credit": "Royal Canadian Mint",
+    "status": "photo",
+    "note": "",
+    "sha256": "0652adc65fded409941be3d77f5049174b142f669c6fc5d82998ff9f70e27bcf"
   }
 }
