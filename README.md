@@ -4,7 +4,7 @@ Personal checklist of Canadian special and commemorative circulation coins. Open
 
 ## Collection and saved progress
 
-The checklist contains **174 entries**, with **81 owned defaults**. Seven silver-composition issues were removed previously. The six nickel dollars explicitly removed by the owner are 1970 Manitoba, 1971 British Columbia, 1973 Prince Edward Island, 1974 Winnipeg, 1982 Constitution and 1984 Jacques Cartier. The owner also removed the 1943–1945 Victory Nickels and 1951 Identification of Nickel entries.
+The checklist contains **173 entries**, with **81 owned defaults**. Seven silver-composition issues were removed previously. The six nickel dollars explicitly removed by the owner are 1970 Manitoba, 1971 British Columbia, 1973 Prince Edward Island, 1974 Winnipeg, 1982 Constitution and 1984 Jacques Cartier. The owner also removed the 1943–1945 Victory Nickels and 1951 Identification of Nickel entries.
 
 Existing coin IDs and the `alex-coins-v1` localStorage key remain unchanged. Saved true and false selections override defaults. Remaining entries are never renumbered, and new IDs 182–193 start missing. The erroneous 2005 Lucky Loonie (ID 110) is merged into the existing 2006 coin (ID 112); an owned selection on either entry is retained. [The Mint's 2006 annual report](https://publications.gc.ca/collections/collection_2010/mint/F71-2006-eng.pdf) explains that 2006-dated Lucky Loonies were also produced in 2005. The existing 2006 coin has its own photograph.
 
@@ -69,3 +69,7 @@ The custom icon is an AI-generated illustration (not an official Mint emblem or 
 Approval is deliberately manual: the owner names exact variants in the issue and asks Codex to apply them. Closing an issue rejects it. No issue comment, label or source text automatically changes the website. New approved coins must use fresh stable IDs, start Missing, include verified base-metal/general-circulation evidence, colour/non-colour variants, original reverse images and English notes. Existing exclusions remain respected.
 
 Validation: `node test-collection.cjs` tests session persistence, explicit removals, migrations, backup restore/corruption handling and category membership; `python3 test-release-watch.py` tests source scope, deduplication, closed-issue suppression and the approval boundary. `python3 check-releases.py` performs a read-only live check and writes an uncommitted local `release-report.json`.
+
+## Shared Lucky Loonie design — 31 October 2026
+
+At the owner’s request, the identical 2012 and 2014 Lucky Loonie circulation reverses are now a single checklist entry (ID 120), labelled 2012 / 2014. The coin date appears on the obverse; the existing 2012 reverse photograph represents both years. The story explains London and Sochi with designer and Canada Gazette sources. ID 121 no longer contributes to counts or random selection; its old story URL resolves to ID 120. Any owned selection from either year transfers to the shared entry, including imports of old backups. The first subsequent save retires the old ID so a later deliberate removal stays removed. The checklist now contains 173 entries, including 34 loonies; five standard references remain outside progress.

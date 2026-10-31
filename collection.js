@@ -15,6 +15,8 @@ window.CoinCollection = {
   },
   read() {
     const previous = {...this.snapshot().owned};
+    // Merge the two Lucky Loonie dates once; save() retires ID 121, so later removals stay removed.
+    if(typeof previous[121]==='boolean') previous[120]=previous[120]===true||previous[121]===true;
     // An explicit false is a deliberate removal and must beat a legacy true.
     for (const [from, to] of [[110,112],[83,191],[192,84]]) {
       if (typeof previous[to] !== 'boolean' && typeof previous[from] === 'boolean') previous[to] = previous[from];
@@ -42,6 +44,7 @@ window.CoinCollection = {
     if(!entries.length || entries.some(([id,v])=>!/^[0-9]+$/.test(id)||typeof v!=='boolean') || !entries.some(([id])=>known.has(id))) throw new Error('This file does not contain valid coin selections.');
     const owned=this.read();
     for(const [id,value] of entries) if(known.has(id)) owned[id]=value;
+    if(typeof data.owned[121]==='boolean') owned[120]=data.owned[120]===true||data.owned[121]===true;
     return {owned,saved:this.save(owned)};
   },
   random(exclude, rng = Math.random) {

@@ -1,5 +1,6 @@
 const $=s=>document.querySelector(s);
-const id=new URLSearchParams(location.search).get('id');
+const requestedId=new URLSearchParams(location.search).get('id');
+const id=requestedId==='121'?'120':requestedId;
 const coin=[...COIN_DATA,...COIN_REFERENCES].find(c=>String(c.id)===id);
 $('#randomCoin').onclick=()=>CoinCollection.openRandom(id);
 if(!coin || !COIN_STORIES[id]) {
