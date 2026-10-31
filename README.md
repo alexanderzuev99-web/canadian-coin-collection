@@ -77,3 +77,7 @@ The website reads the public announcement feed from that branch with CORS; this 
 ## Shared Lucky Loonie design — 31 October 2026
 
 At the owner’s request, the identical 2012 and 2014 Lucky Loonie circulation reverses are now a single checklist entry (ID 120), labelled 2012 / 2014. The coin date appears on the obverse; the existing 2012 reverse photograph represents both years. The story explains London and Sochi with designer and Canada Gazette sources. ID 121 no longer contributes to counts or random selection; its old story URL resolves to ID 120. Any owned selection from either year transfers to the shared entry, including imports of old backups. The first subsequent save retires the old ID so a later deliberate removal stays removed. The checklist now contains 173 entries, including 34 loonies; five standard references remain outside progress.
+
+## Denomination navigation
+
+The six clickable progress cards (All coins and the five denominations) now serve as denomination filters, with pressed state and selected styling. The duplicate denomination chip row is removed. Search, Missing only and Coloured only share one compact toolbar row on phones and desktop. Category and ownership behavior are unchanged. The overall progress caption “collection complete” is removed at the owner’s request.
