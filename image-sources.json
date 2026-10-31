@@ -2354,15 +2354,14 @@
     "name": "Daphne Odjig",
     "year": 2025,
     "variant": "Colour",
-    "catalog": "2 dollars - Daphne Odjig - #CDM-63321",
-    "sourcePage": "https://cnumis.com/en/catalog/canada/type/2-dollars-daphne-odjig-63321",
-    "imageUrl": "https://img.cnumis.com/illustrations/vintages/0235001-0236000/235701R.jpg",
-    "vintage": "2025 Colorized <div style=\"cursor: pointer;\" data-toggle=\"modal\" data-target=\"#view-vintage\"",
-    "credit": "CNumis",
+    "sourcePage": "https://www.mint.ca/en/shop/coins/2025/2025-2-celebrating-the-life-and-art-of-daphne-odjig-colourized-special-wrap-roll",
+    "imageUrl": "https://www.mint.ca/globalassets/products/2025/l9/daphne-odjig/250985-2025-2-celebrating-the-life-and-art-of-daphne-odjig-colourized-special-wrap-roll/250985_rev_1200.png",
+    "credit": "Royal Canadian Mint",
     "status": "photo",
-    "image": "176.jpg",
+    "image": "176.png",
     "note": "",
-    "sha256": "3d3c8f3525a3b5787ea220c7ac05a80b4787e18eea7008e64a87fa7904f45a89"
+    "sha256": "d1a8a1fdb0fd33ac76affe27b9742e07ff2ddef3aec062586252a3c5c8a1603a",
+    "verifiedOn": "2026-10-31"
   },
   "177": {
     "id": 177,

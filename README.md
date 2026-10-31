@@ -83,3 +83,5 @@ At the owner’s request, the identical 2012 and 2014 Lucky Loonie circulation r
 The six clickable progress cards (All coins and the five denominations) now serve as denomination filters, with pressed state and selected styling. The duplicate denomination chip row is removed. Search, Missing only and Coloured only share one compact toolbar row on phones and desktop. Category and ownership behavior are unchanged. The overall progress caption “collection complete” is removed at the owner’s request.
 
 The redundant overall counter/progress bar in the header is removed. The All coins progress card is the single overall count and the reset-to-all filter.
+
+Daphne Odjig colour (176) now uses the Mint’s original 1200px straight-on reverse PNG, matching the non-colour image style. The old CNumis JPG is retained unused. Attribution and the SHA-256 manifest were updated; ownership IDs are unchanged.
