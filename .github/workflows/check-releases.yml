@@ -4,8 +4,7 @@ on:
     - cron: '17 14 * * 1'
   workflow_dispatch:
 permissions:
-  contents: read
-  issues: write
+  contents: write
 concurrency:
   group: mint-release-review
   cancel-in-progress: false
@@ -16,9 +15,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Test discovery and approval boundary
-        run: python3 test-release-watch.py
-      - name: Check official Mint sources and request review
+        run: |
+          python3 test-release-watch.py
+          node test-collection.cjs
+          node test-new-coins.cjs
+      - name: Publish official announcements for website review
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python3 check-releases.py --publish
+        run: python3 check-releases.py --publish-feed

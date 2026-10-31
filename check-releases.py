@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Weekly Mint discovery. Creates review issues; never changes the coin catalogue."""
 import argparse
+import base64
 import datetime as dt
 import hashlib
 import json
@@ -11,6 +12,7 @@ import time
 from html.parser import HTMLParser
 from urllib.parse import urljoin, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError
 
 ROOT = Path(__file__).resolve().parent
 SOURCES = [
@@ -140,8 +142,65 @@ def publish(candidates, repo, token, api=github):
         'body': review_body(new)})['html_url']
 
 
+def enrich(candidate, html):
+    class Metadata(HTMLParser):
+        def __init__(self):
+            super().__init__(); self.h1=False; self.title=[]; self.image=''
+        def handle_starttag(self, tag, attrs):
+            attrs=dict(attrs)
+            if tag=='h1': self.h1=True
+            if tag=='meta' and attrs.get('property')=='og:image': self.image=attrs.get('content','')
+        def handle_endtag(self, tag):
+            if tag=='h1': self.h1=False
+        def handle_data(self, text):
+            if self.h1:self.title.append(text)
+    parser=Metadata(); parser.feed(html)
+    title=' '.join(' '.join(parser.title).split()) or candidate['title']
+    path=urlsplit(candidate['url']).path
+    year=re.search(r'/(20[0-9]{2})(?:/|-)',path)
+    denomination=re.search(r'\$[12]|(?:5|10|25)[ -]*(?:cents?|¢)', title, re.I)
+    denom=denomination.group(0).lower() if denomination else ''
+    if denom and not denom.startswith('$'): denom=re.search(r'5|10|25',denom).group(0)+'¢'
+    image=canonical(urljoin(candidate['url'],parser.image)) if parser.image else None
+    if image and not urlsplit(image).path.startswith('/globalassets/'):image=None
+    return {**candidate,'id':hashlib.sha256(candidate['url'].encode()).hexdigest()[:16],
+            'title':title[:240], 'name':title[:160], 'year':int(year.group(1)) if year else None,
+            'denomination':denom,'image':image or ''}
+
+
+def publish_feed(report, repo, token, api=github):
+    if not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+',repo):raise ValueError('Invalid repository name')
+    branch='release-feed'; path=f'/repos/{repo}/contents/new-coins-feed.json'
+    try:
+        existing=api('GET',path+'?ref='+branch,token)
+        previous=json.loads(base64.b64decode(existing['content']))
+    except HTTPError as exc:
+        if exc.code!=404:raise
+        try:api('GET',f'/repos/{repo}/git/ref/heads/{branch}',token)
+        except HTTPError as missing:
+            if missing.code!=404:raise
+            head=api('GET',f'/repos/{repo}/git/ref/heads/main',token)['object']['sha']
+            api('POST',f'/repos/{repo}/git/refs',token,{'ref':'refs/heads/'+branch,'sha':head})
+        try:
+            existing=api('GET',path+'?ref='+branch,token)
+            previous=json.loads(base64.b64decode(existing['content']))
+        except HTTPError as absent:
+            if absent.code!=404:raise
+            existing={};previous={'candidates':[]}
+    reviewed={canonical(url) for url in json.loads((ROOT/'release-watch.json').read_text())['reviewed_urls']}
+    candidates={c['url']:c for c in previous.get('candidates',[]) if canonical(c.get('url','')) and c['url'] not in reviewed}
+    candidates.update({c['url']:c for c in report['candidates']})
+    feed={'version':1,'checkedAt':report['checkedAt'],'sources':SOURCES,'candidates':list(candidates.values())}
+    body={'message':'Refresh official Mint release feed for website review','branch':branch,
+          'content':base64.b64encode((json.dumps(feed,ensure_ascii=False,indent=2)+'\n').encode()).decode()}
+    if existing.get('sha'):body['sha']=existing['sha']
+    api('PUT',path,token,body)
+    return feed
+
+
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument('--publish-feed', action='store_true', help='Publish announcements to the website review feed, never to the catalogue')
     parser.add_argument('--publish', action='store_true', help='Create an approval issue using GITHUB_TOKEN')
     parser.add_argument('--fixture-dir', type=Path, help='Read source snapshots for offline testing')
     args = parser.parse_args()
@@ -155,10 +214,15 @@ def main():
             raise RuntimeError(f'No expected circulation links found at {source}; source format may have changed')
         found.update(items)
     candidates = [c for url, c in sorted(found.items()) if url not in reviewed]
+    if args.publish_feed:
+        candidates=[enrich(c,fetch(c['url'])) for c in candidates]
     report = {'checkedAt': dt.datetime.now(dt.timezone.utc).isoformat(), 'sources': SOURCES,
               'discovered': len(found), 'candidates': candidates, 'catalogueChanged': False}
     Path('release-report.json').write_text(json.dumps(report, indent=2, ensure_ascii=False)+'\n')
     print(f"Checked {len(SOURCES)} Mint sources; {len(found)} circulation links; {len(candidates)} candidate pages need review.")
+    if args.publish_feed:
+        feed=publish_feed(report,os.environ['GITHUB_REPOSITORY'],os.environ['GITHUB_TOKEN'])
+        print(f"Published {len(feed['candidates'])} announcement pages for review on the website. Catalogue unchanged.")
     if args.publish and candidates:
         token = os.environ['GITHUB_TOKEN']
         repo = os.environ['GITHUB_REPOSITORY']
@@ -168,7 +232,7 @@ def main():
     summary = os.environ.get('GITHUB_STEP_SUMMARY')
     if summary:
         with open(summary, 'a') as stream:
-            stream.write(f'Checked two official Mint sources. Found {len(candidates)} candidate pages outside the reviewed baseline. No catalogue entries were changed. Review pending [issues](https://github.com/{os.environ["GITHUB_REPOSITORY"]}/issues).\n')
+            stream.write(f'Checked two official Mint sources. Found {len(candidates)} candidate pages outside the reviewed baseline. No catalogue entries were changed. Review new announcements on the website using New coins. Decisions are personal and do not modify the shared catalogue.\n')
 
 
 if __name__ == '__main__':

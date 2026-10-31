@@ -1,6 +1,7 @@
 // Release/program groups, scoped to denomination. Colour variants stay together.
 window.CoinCategories = {
   forCoin(c) {
+    if(c.series==='Personal additions')return c.name+' · '+c.year;
     if(c.year===2017 && c.name.startsWith('Canada 150')) return 'Canada 150 · 2017';
     const groups={
       'Canada 125':'Canada 125 · 1992',
