@@ -19,7 +19,7 @@
    form.onsubmit=e=>{e.preventDefault();if(!form.reportValidity())return;try{
     const variants=form.elements.variants.value==='both'?['colour','non-colour']:[form.elements.variants.value];
     NewCoins.decide(c,'accepted',variants.map(variant=>({id:`new-${c.id}-${variant}`,name:form.elements.coinName.value.trim(),year:Number(form.elements.year.value),denomination:form.elements.denomination.value,variant})));
-    $('#saveStatus').textContent='Added to your personal checklist as Missing. Saved in this browser.';renderReviews();
+    CoinCollection.notify($('#saveStatus'),'Added to your personal checklist as Missing. Saved in this browser.',true);renderReviews();
    }catch(error){form.querySelector('.reviewMessage').textContent=error.message;}};
    form.querySelector('.skipRelease').onclick=()=>{try{NewCoins.decide(c,'skipped');renderReviews();}catch(error){form.querySelector('.reviewMessage').textContent=error.message;}};
    article.append(form);cards.append(article);
@@ -27,7 +27,7 @@
   const previous=$('#previousCoinReviews');previous.replaceChildren();
   for(const [id,r] of Object.entries(NewCoins.state))if(r.status!=='pending'){
    const row=element('div',null,'previousRelease');row.append(element('span',r.title+' · '+(r.status==='accepted'?'Added':'Skipped')));
-   if(r.status==='skipped'){const undo=element('button','Review again');undo.onclick=()=>{try{NewCoins.decide({id,...r},'pending');if(!feed.candidates.some(c=>c.id===id))feed.candidates.push({id,...r});renderReviews();}catch(error){$('#saveStatus').textContent=error.message;}};row.append(undo);}
+   if(r.status==='skipped'){const undo=element('button','Review again');undo.onclick=()=>{try{NewCoins.decide({id,...r},'pending');if(!feed.candidates.some(c=>c.id===id))feed.candidates.push({id,...r});renderReviews();}catch(error){CoinCollection.notify($('#saveStatus'),error.message);}};row.append(undo);}
    previous.append(row);
   }
   if(!previous.children.length)previous.append(element('p','No decisions yet.'));

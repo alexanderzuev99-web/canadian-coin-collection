@@ -31,7 +31,7 @@ if(!coin || !COIN_STORIES[id]) {
   if(reference)$('#collectionStatus').textContent='Reference only · excluded from collection progress';
   else {
     refresh();
-    $('#collectionButton').onclick=()=>{const result=CoinCollection.set(coin.id,!owned[coin.id]);owned=result.owned;refresh();$('#collectionStatus').textContent=result.saved?'Saved on this device.':'Browser storage is unavailable. Changes will last for this visit only.';};
+    $('#collectionButton').onclick=()=>{const result=CoinCollection.set(coin.id,!owned[coin.id]);owned=result.owned;refresh();CoinCollection.notify($('#collectionStatus'),result.saved?'Saved on this device.':'Browser storage is unavailable. Changes will last for this visit only.',result.saved);};
     window.addEventListener('pageshow',()=>{owned=CoinCollection.read();refresh();});
     window.addEventListener('storage',e=>{if(e.key==='alex-coins-v1'){owned=CoinCollection.read();refresh();}});
   }

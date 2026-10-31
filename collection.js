@@ -1,6 +1,20 @@
 // Stable IDs and the original key keep existing browser selections compatible.
 window.CoinCollection = {
   key: 'alex-coins-v1',
+  noticeTimers: new WeakMap(),
+  notify(node, message, temporary = false) {
+    const previous = this.noticeTimers.get(node);
+    if (previous !== undefined) clearTimeout(previous);
+    this.noticeTimers.delete(node);
+    node.textContent = message;
+    if (temporary) {
+      const timer = setTimeout(() => {
+        node.textContent = '';
+        this.noticeTimers.delete(node);
+      }, 3000);
+      this.noticeTimers.set(node, timer);
+    }
+  },
   backupKey: 'alex-coins-backup-v1',
   snapshot() {
     let newest;
