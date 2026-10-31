@@ -1,0 +1,15 @@
+{
+  "id": "./",
+  "name": "Canadian Coin Collection",
+  "short_name": "My Coins",
+  "description": "Your Canadian circulation coin checklist and coin stories",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b1013",
+  "theme_color": "#0b1013",
+  "icons": [
+    {"src":"icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"}
+  ]
+}
