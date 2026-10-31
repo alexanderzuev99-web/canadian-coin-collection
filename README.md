@@ -85,3 +85,7 @@ The six clickable progress cards (All coins and the five denominations) now serv
 The redundant overall counter/progress bar in the header is removed. The All coins progress card is the single overall count and the reset-to-all filter.
 
 Daphne Odjig colour (176) now uses the Mint’s original 1200px straight-on reverse PNG, matching the non-colour image style. The old CNumis JPG is retained unused. Attribution and the SHA-256 manifest were updated; ownership IDs are unchanged.
+
+## Unified photograph presentation
+
+All bundled active coin and reference photos now have consistent white presentation frames, centred reverse images and matching apparent scale. `presentationCrop` trims only the surrounding background in the browser; original files and embedded source notices remain intact. Source lighting, patina and genuine coin colours are preserved. This is presentation normalization, not AI reconstruction or an assertion that every historical photo has equal native resolution. The lowest-resolution image, In Flanders Fields (193), was replaced with the Mint’s original 1198px reverse PNG; its former 290px two-sided crop is retired.
