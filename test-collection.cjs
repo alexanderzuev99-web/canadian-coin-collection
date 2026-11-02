@@ -19,3 +19,13 @@ console.log('PASS: additions/removals survive new sessions; explicit false beats
 
 for(const old of [{120:false,121:true},{120:true,121:false},{120:true,121:true},{120:false,121:false}]){const st={'alex-coins-v1':JSON.stringify({owned:old})};let cc=session(st).CoinCollection;assert.equal(cc.read()[120],old[120]||old[121]);cc.set(120,false);cc=session(st).CoinCollection;assert.equal(cc.read()[120],false);assert.equal(cc.read()[121],undefined);cc.importData(JSON.stringify({owned:old}));assert.equal(cc.read()[120],old[120]||old[121]);}
 console.log('PASS: either Lucky Loonie year migrates as collected; removals persist after migration; old backups merge both years.');
+
+// A stale catalogue must not erase unknown IDs or personal-release metadata.
+const futureId='new-eeeeeeeeeeeeeeee-colour';
+const versions={};let modern=session(versions).CoinCollection;
+modern.save({...modern.read(),4:false,9999:true,[futureId]:true});
+const archived=JSON.parse(versions['alex-coins-vault-v1']);archived.releaseReviews={future:{status:'skipped'}};versions['alex-coins-vault-v1']=JSON.stringify(archived);
+versions['alex-coins-v1']=versions['alex-coins-backup-v1']=JSON.stringify({revision:100,owned:{4:false,5:true}});
+let older=session(versions).CoinCollection;assert.equal(older.snapshot().owned[9999],true);assert.equal(older.snapshot().owned[futureId],true);assert.equal(older.read()[4],false);assert(older.snapshot().releaseReviews.future);
+older.save(older.read());let next=session(versions).CoinCollection;assert.equal(next.snapshot().owned[futureId],true);assert.equal(next.snapshot().owned[9999],true);assert.equal(next.read()[4],false);assert.equal(next.read()[5],true);
+console.log('PASS: catalogue version changes retain unknown future IDs, deliberate removals and release metadata; archive survives writes from older clients.');
