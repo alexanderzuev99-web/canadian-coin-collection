@@ -65,7 +65,11 @@ window.CoinCollection = {
     const owned={...this.read(),[id]:value};
     return {owned,saved:this.save(owned)};
   },
-  exportData() { return JSON.stringify({app:'Canadian Coin Collection',version:2,exportedAt:new Date().toISOString(),owned:this.read(),releaseReviews:window.NewCoins?.state||{}},null,2); },
+  exportData() {
+    const snapshot=this.snapshot(),owned={...snapshot.owned,...this.read()};
+    for(const id of [110,121,83,192])delete owned[id];
+    return JSON.stringify({app:'Canadian Coin Collection',version:3,exportedAt:new Date().toISOString(),owned,releaseReviews:window.NewCoins?.state||snapshot.releaseReviews||{}},null,2);
+  },
   importData(text) {
     const data=JSON.parse(text);
     if(!data || !data.owned || typeof data.owned!=='object' || Array.isArray(data.owned)) throw new Error('Choose a collection backup JSON file.');

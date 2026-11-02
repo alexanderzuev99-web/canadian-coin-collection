@@ -29,3 +29,5 @@ versions['alex-coins-v1']=versions['alex-coins-backup-v1']=JSON.stringify({revis
 let older=session(versions).CoinCollection;assert.equal(older.snapshot().owned[9999],true);assert.equal(older.snapshot().owned[futureId],true);assert.equal(older.read()[4],false);assert(older.snapshot().releaseReviews.future);
 older.save(older.read());let next=session(versions).CoinCollection;assert.equal(next.snapshot().owned[futureId],true);assert.equal(next.snapshot().owned[9999],true);assert.equal(next.read()[4],false);assert.equal(next.read()[5],true);
 console.log('PASS: catalogue version changes retain unknown future IDs, deliberate removals and release metadata; archive survives writes from older clients.');
+
+assert.equal(JSON.parse(next.exportData()).owned[futureId],true);assert.equal(JSON.parse(next.exportData()).owned[9999],true);console.log('PASS: portable backups also preserve IDs introduced by a newer catalogue.');
